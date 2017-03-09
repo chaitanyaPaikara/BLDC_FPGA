@@ -1,0 +1,12 @@
+[Inputs]
+CLK
+CLR
+Enable
+=Data[7:0]=
+[Outputs]
+CLK_Baud
+OUT_ser
+[BiDir]
+[ATTRIBUTES]
+VeriModel Sync_Transmitter
+

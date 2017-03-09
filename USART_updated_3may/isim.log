@@ -1,0 +1,12 @@
+ISim log file
+Running: E:\Git\FPGA\USART_updated_3may\test_usart_test_usart_sch_tb_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Git/FPGA/USART_updated_3may/test_usart_test_usart_sch_tb_isim_par.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/test_usart_timesim.sdf, for root module /test_usart_test_usart_sch_tb/UUT/.
+Finished circuit initialization process.
+# run 10000.00us

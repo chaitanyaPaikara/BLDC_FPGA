@@ -1,0 +1,3 @@
+select figure at 782 1103 8 -wires -sn=1
+select figure at 1033 1154 8 -wires -sn=1
+select figure at 1077 1139 8 -wires -sn=1

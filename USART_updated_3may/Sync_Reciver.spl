@@ -1,0 +1,13 @@
+[Inputs]
+CLK
+CLR
+CLK_Baud
+Serial_input
+[Outputs]
+Data_Ready
+Parity_ERR
+=Data[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Sync_Reciver
+

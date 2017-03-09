@@ -1,0 +1,22 @@
+sch2sym -intstyle ise -family spartan3e -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_receiver D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch D:/xilinx_fpga/USART_updated_3may/usart_receiver.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_receiver_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_receiver.sch 

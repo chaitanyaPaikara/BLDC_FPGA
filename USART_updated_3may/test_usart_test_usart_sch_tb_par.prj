@@ -1,0 +1,2 @@
+verilog work "netgen/par/test_usart_timesim.v"
+verilog work "test_Bus.v"

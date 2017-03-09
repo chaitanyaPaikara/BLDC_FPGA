@@ -1,0 +1,5 @@
+MODULE decade_counter
+	SUBMODULE Add_sub_4bit
+		INSTANCE XLXI_1
+	SUBMODULE Reg_4bit
+		INSTANCE XLXI_2

@@ -1,0 +1,5 @@
+MODULE nin_counter
+	SUBMODULE Add_sub_4bit
+		INSTANCE XLXI_3
+	SUBMODULE Reg_4bit
+		INSTANCE XLXI_49

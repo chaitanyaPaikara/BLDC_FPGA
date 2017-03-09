@@ -1,0 +1,5 @@
+sch2hdl -intstyle ise -family spartan3e -verilog decade_counter_new_drc.vf -w E:/FPGA_Xilinx/USART_updated_3may/decade_counter_new.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym decade_counter_new E:/FPGA_Xilinx/USART_updated_3may/decade_counter_new.sch E:/FPGA_Xilinx/USART_updated_3may/decade_counter_new.sym 
+xst -intstyle ise -ifn "E:/FPGA_Xilinx/USART_updated_3may/decade_counter_new.xst" -ofn "E:/FPGA_Xilinx/USART_updated_3may/decade_counter_new.syr" 
+sch2hdl -intstyle ise -family spartan3e -verilog decade_counter_new_drc.vf -w E:/FPGA_Xilinx/USART_updated_3may/decade_counter_new.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym decade_counter_new E:/FPGA_Xilinx/USART_updated_3may/decade_counter_new.sch E:/FPGA_Xilinx/USART_updated_3may/decade_counter_new.sym 

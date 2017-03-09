@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Wed Mar 08 21:00:41 2017
+# Process ID: 11208
+# Log file: E:/Git/FPGA/USART_updated_3may/planAhead_run_1/planAhead.log
+# Journal file: E:/Git/FPGA/USART_updated_3may/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/Git/FPGA/USART_updated_3may/pa.fromNetlist.tcl
+startgroup
+set_property package_pin M5 [get_ports {Data_Rx[0]}]
+endgroup
+save_design

@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family spartan3e -verilog Digital_Filter_drc.vf -w E:/FPGA_Xilinx/ETC_WITH_LEDs/Digital_Filter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Digital_Filter E:/FPGA_Xilinx/ETC_WITH_LEDs/Digital_Filter.sch E:/FPGA_Xilinx/USART_updated_3may/Digital_Filter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog Digital_Filter_drc.vf -w E:/FPGA_Xilinx/USART_updated_3may/Digital_Filter.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Digital_Filter_drc.vf -w E:/FPGA_Xilinx/USART_updated_3may/Digital_Filter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Digital_Filter E:/FPGA_Xilinx/USART_updated_3may/Digital_Filter.sch E:/FPGA_Xilinx/USART_updated_3may/Digital_Filter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog Digital_Filter_drc.vf -w E:/FPGA_Xilinx/USART_updated_3may/Digital_Filter.sch 
+sch2verilog -intstyle ise -family spartan3e -tionly {} -tiext tfi -w E:/Git/FPGA/USART_updated_3may/Digital_Filter.sch Digital_Filter.tfi 

@@ -1,0 +1,11 @@
+// Verilog instantiation template created from schematic E:\Git\FPGA\USART_updated_3may\Digital_Filter.sch - Wed Feb 22 14:29:25 2017
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   Digital_Filter UUT (
+		.CLK(    ), 
+		.Inp(    ), 
+		.Outp(    )
+   );

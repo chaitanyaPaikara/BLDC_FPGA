@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "E:/Git/FPGA/USART_updated_3may/Sync_Transmitter.xst" -ofn "E:/Git/FPGA/USART_updated_3may/Sync_Transmitter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 Sync_Transmitter.ngc Sync_Transmitter.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Sync_Transmitter_map.ncd Sync_Transmitter.ngd Sync_Transmitter.pcf 
+par -w -intstyle ise -ol high -t 1 Sync_Transmitter_map.ncd Sync_Transmitter.ncd Sync_Transmitter.pcf 
+xst -intstyle ise -ifn "E:/Git/FPGA/USART_updated_3may/Sync_Transmitter.xst" -ofn "E:/Git/FPGA/USART_updated_3may/Sync_Transmitter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 Sync_Transmitter.ngc Sync_Transmitter.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Sync_Transmitter_map.ncd Sync_Transmitter.ngd Sync_Transmitter.pcf 
+par -w -intstyle ise -ol high -t 1 Sync_Transmitter_map.ncd Sync_Transmitter.ncd Sync_Transmitter.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Sync_Transmitter.twx Sync_Transmitter.ncd -o Sync_Transmitter.twr Sync_Transmitter.pcf 
+vhdtdtfi -lib work E:/Git/FPGA/USART_updated_3may/Sync_Transmitter.v -lang verilog -prj USART_updated_3may -o Sync_Transmitter.spl -module Sync_Transmitter -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Sync_Transmitter.spl E:/Git/FPGA/USART_updated_3may/Sync_Transmitter.sym 
+vhdtdtfi -lib work E:/Git/FPGA/USART_updated_3may/Sync_Transmitter.v -lang verilog -prj USART_updated_3may -o Sync_Transmitter.spl -module Sync_Transmitter -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Sync_Transmitter.spl E:/Git/FPGA/USART_updated_3may/Sync_Transmitter.sym 
+vhdtdtfi -lib work E:/Git/FPGA/USART_updated_3may/Sync_Transmitter.v -lang verilog -prj USART_updated_3may -o Sync_Transmitter.spl -module Sync_Transmitter -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Sync_Transmitter.spl E:/Git/FPGA/USART_updated_3may/Sync_Transmitter.sym 

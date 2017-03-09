@@ -1,0 +1,29 @@
+sch2sym -intstyle ise -family spartan3e -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog usart_transmiter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym usart_transmiter D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sch D:/xilinx_fpga/USART_updated_3may/usart_transmiter.sym 

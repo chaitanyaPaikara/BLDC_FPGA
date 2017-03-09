@@ -1,0 +1,3 @@
+verilog work "Reg_4bit.vf"
+verilog work "Add_sub_4bit.vf"
+verilog work "decade_counter_new.vf"

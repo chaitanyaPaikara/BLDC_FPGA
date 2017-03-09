@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="USART_updated_3may.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Add_sub_4bit.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Add_sub_4bit.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Flip_flip9.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Flip_flip9.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Incrementer_Decrementer.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Incrementer_Decrementer.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Parity_gen.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Parity_gen.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Precale_434.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Precale_434.vf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="Precale_434_drc.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Reg_4bit.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Reg_4bit.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SIPO_reg.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="SIPO_reg.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="bit10datareg_to_transmit.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="bit10datareg_to_transmit.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="bit_11.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="decade_counter.vf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="decade_counter_drc.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="decade_counter_new.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="decade_counter_new.vf"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="nin_counter.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="nin_counter.vf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="nin_counter_drc.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="test_usart.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="test_usart.vf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="test_usart_drc.vf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_usart_test_usart_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_usart_test_usart_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_usart_test_usart_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_usart_test_usart_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="usart_receiver.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="usart_receiver.vf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="usart_receiver_drc.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="usart_transmiter.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="usart_transmiter.vf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="usart_transmiter_drc.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1430968148" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1430968148">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1430968148" xil_pn:in_ck="-7908401907130877758" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1430968148">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="test_usart_1.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1430968148" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7811511202798533532" xil_pn:start_ts="1430968148">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1430968154" xil_pn:in_ck="8371815930346878684" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7378858391196425638" xil_pn:start_ts="1430968148">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Add_sub_4bit.vf"/>
+      <outfile xil_pn:name="Flip_flip9.vf"/>
+      <outfile xil_pn:name="Incrementer_Decrementer.vf"/>
+      <outfile xil_pn:name="Parity_gen.vf"/>
+      <outfile xil_pn:name="Precale_434.vf"/>
+      <outfile xil_pn:name="Reg_4bit.vf"/>
+      <outfile xil_pn:name="SIPO_reg.vf"/>
+      <outfile xil_pn:name="bit10datareg_to_transmit.vf"/>
+      <outfile xil_pn:name="decade_counter_new.vf"/>
+      <outfile xil_pn:name="nin_counter.vf"/>
+      <outfile xil_pn:name="test_usart.vf"/>
+      <outfile xil_pn:name="usart_receiver.vf"/>
+      <outfile xil_pn:name="usart_transmiter.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1430968154" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3969327903254817855" xil_pn:start_ts="1430968154">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1430968154" xil_pn:in_ck="8918676768830176269" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1430968154">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Add_sub_4bit.vf"/>
+      <outfile xil_pn:name="Flip_flip9.vf"/>
+      <outfile xil_pn:name="Incrementer_Decrementer.vf"/>
+      <outfile xil_pn:name="Parity_gen.vf"/>
+      <outfile xil_pn:name="Precale_434.vf"/>
+      <outfile xil_pn:name="Reg_4bit.vf"/>
+      <outfile xil_pn:name="SIPO_reg.vf"/>
+      <outfile xil_pn:name="bit10datareg_to_transmit.vf"/>
+      <outfile xil_pn:name="bit_11.vf"/>
+      <outfile xil_pn:name="decade_counter.vf"/>
+      <outfile xil_pn:name="decade_counter_new.vf"/>
+      <outfile xil_pn:name="nin_counter.vf"/>
+      <outfile xil_pn:name="test_usart.vf"/>
+      <outfile xil_pn:name="test_usart_1.v"/>
+      <outfile xil_pn:name="usart_receiver.vf"/>
+      <outfile xil_pn:name="usart_transmiter.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1430968165" xil_pn:in_ck="8918676768830176269" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2651188591287056617" xil_pn:start_ts="1430968154">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_usart_test_usart_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="test_usart_test_usart_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1430968166" xil_pn:in_ck="4201415485190286780" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="920480993200264332" xil_pn:start_ts="1430968165">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_usart_test_usart_sch_tb_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

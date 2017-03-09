@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan3e -verilog nin_counter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/nin_counter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym nin_counter D:/xilinx_fpga/USART_updated_3may/nin_counter.sch D:/xilinx_fpga/USART_updated_3may/nin_counter.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog nin_counter_drc.vf -w D:/xilinx_fpga/USART_updated_3may/nin_counter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym nin_counter D:/xilinx_fpga/USART_updated_3may/nin_counter.sch D:/xilinx_fpga/USART_updated_3may/nin_counter.sym 

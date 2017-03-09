@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Git/FPGA/USART_updated_3may/test_usart_test_usart_sch_tb_isim_par.exe" -prj "E:/Git/FPGA/USART_updated_3may/test_usart_test_usart_sch_tb_par.prj" "work.test_usart_test_usart_sch_tb" "work.glbl" 

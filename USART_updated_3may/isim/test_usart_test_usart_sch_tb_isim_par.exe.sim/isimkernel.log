@@ -1,0 +1,10 @@
+Command line:
+   test_usart_test_usart_sch_tb_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49991
+
+Wed Mar 08 21:17:50 2017
+
+
+ Elaboration Time: 0.46875 sec
