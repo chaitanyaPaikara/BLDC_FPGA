@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=E:\Git\FPGA\USART_updated_3may\test_usart.ncd
-OUTFILE=E:\Git\FPGA\USART_updated_3may\test_usart.bit
-FAMILY=Spartan3E
-PART=xc3s250e-5cp132
-WORKINGDIR=E:\Git\FPGA\USART_updated_3may
-LICENSE=WebPack
-USER_INFO=__0_0_0

@@ -1,0 +1,9 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib simprims_ver -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Xilinx/UART_1_1/glbl_isim_par.exe -prj C:/Xilinx/UART_1_1/glbl_par.prj work.glbl work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Xilinx/UART_1_1/netgen/par/test_usart_timesim.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:929 - "C:/Xilinx/UART_1_1/netgen/par/test_usart_timesim.v" Line 3474: Top-level design unit glbl specified more than once, ignoring glbl of library work
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

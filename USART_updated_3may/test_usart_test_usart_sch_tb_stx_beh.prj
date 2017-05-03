@@ -1,7 +1,0 @@
-verilog isim_temp "Digital_Filter.vf"
-verilog isim_temp "Sync_Transmitter.v"
-verilog isim_temp "Sync_Reciver.v"
-verilog isim_temp "test_usart.vf"
-verilog isim_temp "test_Bus.v"
-verilog isim_temp "bit_11.vf"
-verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

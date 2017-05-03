@@ -1,8 +1,0 @@
-verilog work "Reg_4bit.vf"
-verilog work "Add_sub_4bit.vf"
-verilog work "SIPO_reg.vf"
-verilog work "Parity_gen.vf"
-verilog work "outputreg_at_end_ofinput.vf"
-verilog work "nin_counter.vf"
-verilog work "Digital_Filter.vf"
-verilog work "usart_receiver.vf"

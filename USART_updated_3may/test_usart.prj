@@ -1,4 +1,0 @@
-verilog work "Digital_Filter.vf"
-verilog work "Sync_Transmitter.v"
-verilog work "Sync_Reciver.v"
-verilog work "test_usart.vf"

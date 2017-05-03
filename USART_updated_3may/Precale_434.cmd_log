@@ -1,4 +1,0 @@
-sch2hdl -intstyle ise -family spartan3e -verilog Precale_434_drc.vf -w D:/xilinx_fpga/USART_updated_3may/Precale_434.sch 
-sch2hdl -intstyle ise -family spartan3e -verilog Precale_434_drc.vf -w E:/FPGA_Xilinx/USART_updated_3may/Precale_434.sch 
-sch2sym -intstyle ise -family spartan3e -w -refsym Precale_434 E:/FPGA_Xilinx/USART_updated_3may/Precale_434.sch E:/FPGA_Xilinx/USART_updated_3may/Precale_434.sym 
-sch2sym -intstyle ise -family spartan3e -w -refsym Precale_434 E:/Git/FPGA/USART_updated_3may/Precale_434.sch E:/Git/FPGA/USART_updated_3may/Precale_434.sym 

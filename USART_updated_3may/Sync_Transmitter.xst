@@ -1,5 +1,0 @@
-set -tmpdir "E:/Git/FPGA/USART_updated_3may/xst/projnav.tmp"
-set -xsthdpdir "E:/Git/FPGA/USART_updated_3may/xst"
-elaborate
--ifn Sync_Transmitter.prj
--ifmt mixed

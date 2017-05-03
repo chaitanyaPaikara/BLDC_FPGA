@@ -1,1 +1,0 @@
-sch2hdl -intstyle ise -family spartan3e -verilog Precale_434_drc.vf -w D:/xilinx_fpga/USART_updated_3may/Precale_434.sch 

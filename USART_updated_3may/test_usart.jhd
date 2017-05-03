@@ -1,5 +1,0 @@
-MODULE test_usart
-	SUBMODULE Sync_Reciver
-		INSTANCE XLXI_36
-	SUBMODULE Sync_Transmitter
-		INSTANCE XLXI_37

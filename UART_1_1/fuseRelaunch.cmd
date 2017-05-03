@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Xilinx/UART_1_1/glbl_isim_par.exe" -prj "C:/Xilinx/UART_1_1/glbl_par.prj" "work.glbl" "work.glbl" 

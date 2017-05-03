@@ -1,0 +1,29 @@
+ISim log file
+Running: C:\Xilinx\UART_1_1\test_usart_test_usart_sch_tb_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Xilinx/UART_1_1/test_usart_test_usart_sch_tb_isim_par.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/test_usart_timesim.sdf, for root module /test_usart_test_usart_sch_tb/UUT/.
+Finished circuit initialization process.
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/test_usart_timesim.sdf, for root module /test_usart_test_usart_sch_tb/UUT/.
+Finished circuit initialization process.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/test_usart_timesim.sdf, for root module /test_usart_test_usart_sch_tb/UUT/.
+Finished circuit initialization process.
+WARNING: at 1002682 ps: Timing violation in /test_usart_test_usart_sch_tb/UUT/\Transmitter/RST_O /  $setuphold<setup>( I:1002644 ps, CLK:1002682 ps,115 ps,42 ps)
+
+
+WARNING: at 151002682 ps: Timing violation in /test_usart_test_usart_sch_tb/UUT/\Transmitter/RST_O /  $setuphold<setup>( I:151002644 ps, CLK:151002682 ps,115 ps,42 ps)
+
+
+Stopped at time : 36926270 ns : File "C:/Xilinx/UART_1_1/test_Bus.v" Line 54

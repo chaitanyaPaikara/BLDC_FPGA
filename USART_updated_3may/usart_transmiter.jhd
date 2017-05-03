@@ -1,7 +1,0 @@
-MODULE usart_transmiter
-	SUBMODULE Parity_gen
-		INSTANCE XLXI_9
-	SUBMODULE bit10datareg_to_transmit
-		INSTANCE XLXI_36
-	SUBMODULE decade_counter_new
-		INSTANCE XLXI_39

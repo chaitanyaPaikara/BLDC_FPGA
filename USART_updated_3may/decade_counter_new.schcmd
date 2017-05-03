@@ -1,4 +1,0 @@
-select figure at 1899 893 8 -wires -sn=1
-select all in 1899 893 3282 2125 -wires -enclosed -sn=1
-select figure at 3245 2081 8 -wires -sn=1
-select figure at 3087 1094 8 -wires -sn=1

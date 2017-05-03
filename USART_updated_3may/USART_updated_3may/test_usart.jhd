@@ -1,5 +1,0 @@
-MODULE test_usart
-	SUBMODULE usart_receiver
-		INSTANCE XLXI_25
-	SUBMODULE usart_transmiter
-		INSTANCE XLXI_29
