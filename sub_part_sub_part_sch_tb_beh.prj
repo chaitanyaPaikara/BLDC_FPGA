@@ -1,0 +1,6 @@
+verilog work "Delay_sub.vf"
+verilog work "PID_NEXT.v"
+verilog work "../BLDC_Controller/PID.v"
+verilog work "sub_part.vf"
+verilog work "sub_part_TB.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

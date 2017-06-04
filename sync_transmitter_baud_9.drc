@@ -1,0 +1,8 @@
+Release 14.2 Drc P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Sun Jun 04 16:55:02 2017
+
+drc -z Sync_Transmitter_Baud_9.ncd Sync_Transmitter_Baud_9.pcf
+
+DRC detected 0 errors and 0 warnings.

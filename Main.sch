@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing version="7">
+    <attr value="spartan6" name="DeviceFamilyName">
+        <trait delete="all:0" />
+        <trait editname="all:0" />
+        <trait edittrait="all:0" />
+    </attr>
+    <netlist>
+        <signal name="CLK" />
+        <signal name="Rx" />
+        <signal name="XLXN_4" />
+        <signal name="Tx" />
+        <signal name="CLR_Rx" />
+        <signal name="CLR_Tx" />
+        <signal name="RST" />
+        <signal name="XLXN_5(8:0)" />
+        <signal name="XLXN_7(7:0)" />
+        <signal name="Kp(3:0)" />
+        <signal name="Kd(3:0)" />
+        <signal name="CE" />
+        <port polarity="Input" name="CLK" />
+        <port polarity="Input" name="Rx" />
+        <port polarity="Output" name="Tx" />
+        <port polarity="Input" name="CLR_Rx" />
+        <port polarity="Input" name="CLR_Tx" />
+        <port polarity="Input" name="RST" />
+        <port polarity="Input" name="Kp(3:0)" />
+        <port polarity="Input" name="Kd(3:0)" />
+        <port polarity="Input" name="CE" />
+        <blockdef name="Sync_Reciver">
+            <timestamp>2017-5-24T18:26:55</timestamp>
+            <line x2="0" y1="32" y2="32" x1="64" />
+            <line x2="0" y1="96" y2="96" x1="64" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <line x2="384" y1="-224" y2="-224" x1="320" />
+            <line x2="384" y1="-128" y2="-128" x1="320" />
+            <rect width="64" x="320" y="-44" height="24" />
+            <line x2="384" y1="-32" y2="-32" x1="320" />
+            <rect width="256" x="64" y="-256" height="384" />
+        </blockdef>
+        <blockdef name="Sync_Transmitter_Baud">
+            <timestamp>2017-5-30T22:3:51</timestamp>
+            <rect width="64" x="0" y="84" height="24" />
+            <line x2="0" y1="96" y2="96" x1="64" />
+            <line x2="0" y1="32" y2="32" x1="64" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <line x2="384" y1="-224" y2="-224" x1="320" />
+            <line x2="384" y1="-32" y2="-32" x1="320" />
+            <rect width="256" x="64" y="-256" height="384" />
+        </blockdef>
+        <blockdef name="sub_part">
+            <timestamp>2017-5-30T21:56:4</timestamp>
+            <rect width="304" x="64" y="-384" height="384" />
+            <line x2="0" y1="-352" y2="-352" x1="64" />
+            <line x2="0" y1="-288" y2="-288" x1="64" />
+            <rect width="64" x="0" y="-172" height="24" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <rect width="64" x="0" y="-108" height="24" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="368" y="-364" height="24" />
+            <line x2="432" y1="-352" y2="-352" x1="368" />
+        </blockdef>
+        <block symbolname="Sync_Reciver" name="XLXI_1">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="CLR_Rx" name="CLR" />
+            <blockpin signalname="XLXN_4" name="CLK_Baud" />
+            <blockpin signalname="Rx" name="Serial_input" />
+            <blockpin name="Data_Ready" />
+            <blockpin name="Parity_ERR" />
+            <blockpin signalname="XLXN_7(7:0)" name="Data(7:0)" />
+        </block>
+        <block symbolname="Sync_Transmitter_Baud" name="XLXI_2">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="CLR_Tx" name="CLR" />
+            <blockpin signalname="RST" name="RST" />
+            <blockpin signalname="XLXN_5(8:0)" name="Data9(8:0)" />
+            <blockpin signalname="XLXN_4" name="CLK_Baud" />
+            <blockpin signalname="Tx" name="OUT_ser" />
+        </block>
+        <block symbolname="sub_part" name="XLXI_3">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="CE" name="EN" />
+            <blockpin signalname="XLXN_7(7:0)" name="current_vel(7:0)" />
+            <blockpin signalname="Kp(3:0)" name="Kp(3:0)" />
+            <blockpin signalname="Kd(3:0)" name="Kd(3:0)" />
+            <blockpin signalname="XLXN_5(8:0)" name="out_vel(8:0)" />
+        </block>
+    </netlist>
+    <sheet sheetnum="1" width="3520" height="2720">
+        <instance x="480" y="784" name="XLXI_1" orien="R0">
+        </instance>
+        <iomarker fontsize="28" x="256" y="272" name="CLK" orien="R270" />
+        <branch name="Rx">
+            <wire x2="480" y1="880" y2="880" x1="304" />
+        </branch>
+        <iomarker fontsize="28" x="304" y="880" name="Rx" orien="R180" />
+        <branch name="Tx">
+            <wire x2="2560" y1="752" y2="752" x1="2480" />
+        </branch>
+        <branch name="CLR_Rx">
+            <wire x2="480" y1="624" y2="624" x1="448" />
+        </branch>
+        <iomarker fontsize="28" x="448" y="624" name="CLR_Rx" orien="R180" />
+        <branch name="XLXN_4">
+            <wire x2="480" y1="816" y2="816" x1="464" />
+            <wire x2="464" y1="816" y2="2208" x1="464" />
+            <wire x2="3088" y1="2208" y2="2208" x1="464" />
+            <wire x2="3088" y1="560" y2="560" x1="2480" />
+            <wire x2="3088" y1="560" y2="2208" x1="3088" />
+        </branch>
+        <branch name="RST">
+            <wire x2="2096" y1="816" y2="816" x1="1920" />
+        </branch>
+        <branch name="CLR_Tx">
+            <wire x2="2096" y1="624" y2="624" x1="1968" />
+        </branch>
+        <iomarker fontsize="28" x="2560" y="752" name="Tx" orien="R0" />
+        <instance x="2096" y="784" name="XLXI_2" orien="R0">
+        </instance>
+        <iomarker fontsize="28" x="1920" y="816" name="RST" orien="R180" />
+        <iomarker fontsize="28" x="1968" y="624" name="CLR_Tx" orien="R180" />
+        <branch name="CLK">
+            <wire x2="256" y1="272" y2="368" x1="256" />
+            <wire x2="928" y1="368" y2="368" x1="256" />
+            <wire x2="928" y1="368" y2="560" x1="928" />
+            <wire x2="1152" y1="560" y2="560" x1="928" />
+            <wire x2="1872" y1="368" y2="368" x1="928" />
+            <wire x2="1872" y1="368" y2="560" x1="1872" />
+            <wire x2="2096" y1="560" y2="560" x1="1872" />
+            <wire x2="256" y1="368" y2="560" x1="256" />
+            <wire x2="480" y1="560" y2="560" x1="256" />
+        </branch>
+        <branch name="XLXN_5(8:0)">
+            <wire x2="1792" y1="560" y2="560" x1="1584" />
+            <wire x2="1792" y1="560" y2="880" x1="1792" />
+            <wire x2="2096" y1="880" y2="880" x1="1792" />
+        </branch>
+        <branch name="XLXN_7(7:0)">
+            <wire x2="1152" y1="752" y2="752" x1="864" />
+        </branch>
+        <branch name="Kp(3:0)">
+            <wire x2="1152" y1="816" y2="816" x1="1088" />
+        </branch>
+        <iomarker fontsize="28" x="1088" y="816" name="Kp(3:0)" orien="R180" />
+        <branch name="Kd(3:0)">
+            <wire x2="1152" y1="880" y2="880" x1="1088" />
+        </branch>
+        <iomarker fontsize="28" x="1088" y="880" name="Kd(3:0)" orien="R180" />
+        <branch name="CE">
+            <wire x2="1152" y1="624" y2="624" x1="1088" />
+        </branch>
+        <iomarker fontsize="28" x="1088" y="624" name="CE" orien="R180" />
+        <instance x="1152" y="912" name="XLXI_3" orien="R0">
+        </instance>
+    </sheet>
+</drawing>

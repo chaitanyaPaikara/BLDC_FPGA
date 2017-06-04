@@ -1,0 +1,3 @@
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/PID_NEXT.v} -lang verilog -prj UART_1_1 -o PID_NEXT.spl -module PID_NEXT -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w PID_NEXT.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/PID_NEXT.sym} 
+vhdtdtfi -lang verilog -prj UART_1_1 -o "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/PID_NEXT.tfi" -lib work "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1//PID_NEXT.v" -module PID_NEXT -template C:/Xilinx/14.2/ISE_DS/ISE//data/tfi.tft -deleteonerror 

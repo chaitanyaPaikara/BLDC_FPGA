@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+PID_NEXT instance_name (
+    .in_vel(in_vel), 
+    .CLK(CLK), 
+    .out_vel(out_vel)
+    );
+
+

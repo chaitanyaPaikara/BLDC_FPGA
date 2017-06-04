@@ -1,0 +1,28 @@
+Command line:
+   PID_NEXT_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50612
+
+Wed May 31 02:57:34 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 836.616 Meg
+
+ Total Signals          : 56
+ Total Nets             : 50
+ Total Signal Drivers   : 35
+ Total Blocks           : 13
+ Total Primitive Blocks : 10
+ Total Processes        : 66
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 167
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 1151.19 Meg
+
+Wed May 31 02:58:10 2017
+

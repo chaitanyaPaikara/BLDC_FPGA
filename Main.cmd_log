@@ -1,0 +1,109 @@
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test_usart.ucf -p xc6slx9-tqg144-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf test_usart.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test_usart.ucf -p xc6slx9-tqg144-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf test_usart.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+sch2hdl -intstyle ise -family spartan6 -verilog Main_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Main {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.sym} 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_basys.ucf -p xc6slx9-tqg144-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf PIN_basys.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_basys.ucf -p xc6slx9-tqg144-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf PIN_basys.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_basys.ucf -p xc3s250e-cp132-5 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf PIN_basys.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test_usart.ucf -p xc6slx9-tqg144-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf test_usart.ucf 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test_usart.ucf -p xc6slx9-tqg144-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf test_usart.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_basys.ucf -p xc3s250e-cp132-5 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf PIN_basys.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_basys.ucf -p xc3s250e-cp132-5 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf PIN_basys.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MimasV2_mapping.ucf -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf MimasV2_mapping.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MimasV2_mapping.ucf -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MimasV2_mapping.ucf -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf MimasV2_mapping.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MimasV2_mapping.ucf -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf MimasV2_mapping.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MimasV2_mapping.ucf -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf MimasV2_mapping.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MimasV2_mapping.ucf -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf MimasV2_mapping.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MimasV2_mapping.ucf -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf MimasV2_mapping.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 "Main.ngc" Main.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf 

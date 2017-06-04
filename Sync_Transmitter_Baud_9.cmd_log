@@ -1,0 +1,13 @@
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.v} -lang verilog -prj UART_1_1 -o Sync_Transmitter_Baud_9.spl -module Sync_Transmitter_Baud_9 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Sync_Transmitter_Baud_9.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.sym} 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.syr" 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.syr" 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.syr" 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_basys.ucf -p xc3s250e-cp132-5 "Sync_Transmitter_Baud_9.ngc" Sync_Transmitter_Baud_9.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Sync_Transmitter_Baud_9_map.ncd Sync_Transmitter_Baud_9.ngd Sync_Transmitter_Baud_9.pcf 
+par -w -intstyle ise -ol high -t 1 Sync_Transmitter_Baud_9_map.ncd Sync_Transmitter_Baud_9.ncd Sync_Transmitter_Baud_9.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Sync_Transmitter_Baud_9.twx Sync_Transmitter_Baud_9.ncd -o Sync_Transmitter_Baud_9.twr Sync_Transmitter_Baud_9.pcf -ucf PIN_basys.ucf 
+bitgen -intstyle ise -f Sync_Transmitter_Baud_9.ut Sync_Transmitter_Baud_9.ncd 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.v} -lang verilog -prj UART_1_1 -o Sync_Transmitter_Baud_9.spl -module Sync_Transmitter_Baud_9 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Sync_Transmitter_Baud_9.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud_9.sym} 

@@ -1,0 +1,7 @@
+MODULE Main
+	SUBMODULE Sync_Reciver
+		INSTANCE XLXI_1
+	SUBMODULE Sync_Transmitter_Baud
+		INSTANCE XLXI_2
+	SUBMODULE sub_part
+		INSTANCE XLXI_3

@@ -1,0 +1,8 @@
+verilog work "Delay_sub.vf"
+verilog work "PID_NEXT.v"
+verilog work "Digital_Filter.vf"
+verilog work "../BLDC_Controller/PID.v"
+verilog work "Sync_Transmitter_Baud.v"
+verilog work "Sync_Reciver.v"
+verilog work "sub_part.vf"
+verilog work "Main.vf"

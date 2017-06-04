@@ -1,0 +1,59 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Delay_sub.vf
+// /___/   /\     Timestamp : 05/30/2017 18:33:19
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.vf" -w "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sch"
+//Design Name: Delay_sub
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Delay_sub(CLK, 
+                 inputIP, 
+                 outputOP);
+
+    input CLK;
+    input [8:0] inputIP;
+   output [8:0] outputOP;
+   
+   
+   FD #( .INIT(1'b0) ) XLXI_2 (.C(CLK), 
+              .D(inputIP[8]), 
+              .Q(outputOP[8]));
+   FD #( .INIT(1'b0) ) XLXI_3 (.C(CLK), 
+              .D(inputIP[7]), 
+              .Q(outputOP[7]));
+   FD #( .INIT(1'b0) ) XLXI_4 (.C(CLK), 
+              .D(inputIP[6]), 
+              .Q(outputOP[6]));
+   FD #( .INIT(1'b0) ) XLXI_5 (.C(CLK), 
+              .D(inputIP[5]), 
+              .Q(outputOP[5]));
+   FD #( .INIT(1'b0) ) XLXI_6 (.C(CLK), 
+              .D(inputIP[4]), 
+              .Q(outputOP[4]));
+   FD #( .INIT(1'b0) ) XLXI_7 (.C(CLK), 
+              .D(inputIP[3]), 
+              .Q(outputOP[3]));
+   FD #( .INIT(1'b0) ) XLXI_8 (.C(CLK), 
+              .D(inputIP[2]), 
+              .Q(outputOP[2]));
+   FD #( .INIT(1'b0) ) XLXI_9 (.C(CLK), 
+              .D(inputIP[1]), 
+              .Q(outputOP[1]));
+   FD #( .INIT(1'b0) ) XLXI_10 (.C(CLK), 
+               .D(inputIP[0]), 
+               .Q(outputOP[0]));
+endmodule
