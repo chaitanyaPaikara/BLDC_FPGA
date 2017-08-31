@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan6 -verilog commut_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/commut.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym commut {C:/Users/Chaitanya Paikara/Documents/GitHub/commut.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/commut.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog commut_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/commut.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym commut {C:/Users/Chaitanya Paikara/Documents/GitHub/commut.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/commut.sym} 

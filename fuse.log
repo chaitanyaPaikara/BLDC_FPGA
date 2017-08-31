@@ -1,18 +1,25 @@
-Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/PID_TB_isim_beh.exe -prj C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/PID_TB_beh.prj work.PID_TB work.glbl 
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part_sub_part_sch_tb_isim_beh.exe -prj C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part_sub_part_sch_tb_beh.prj work.sub_part_sub_part_sch_tb work.glbl 
 ISim P.28xd (signature 0xa0883be4)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.vf" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/PID_NEXT.v" into library work
 Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/../BLDC_Controller/PID.v" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/PID_TB.v" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.vf" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part_TB.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Compiling module PID_Controller
-Compiling module PID_TB
+Compiling module FD
+Compiling module Delay_sub
+Compiling module PID_NEXT
+Compiling module PIDCONTROLLER
+Compiling module sub_part
+Compiling module sub_part_sub_part_sch_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Compiled 3 Verilog Units
-Built simulation executable C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/PID_TB_isim_beh.exe
-Fuse Memory Usage: 27364 KB
-Fuse CPU Usage: 405 ms
+Compiled 7 Verilog Units
+Built simulation executable C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part_sub_part_sch_tb_isim_beh.exe
+Fuse Memory Usage: 27628 KB
+Fuse CPU Usage: 468 ms

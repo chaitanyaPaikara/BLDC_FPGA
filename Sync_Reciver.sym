@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="Sync_Reciver">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2017-6-4T14:17:37</timestamp>
+    <timestamp>2017-6-8T9:21:53</timestamp>
     <attr value="Sync_Reciver" name="VeriModel" />
     <pin polarity="Input" x="0" y="-224" name="CLK" />
     <pin polarity="Input" x="0" y="-160" name="CLR" />

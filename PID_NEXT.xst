@@ -1,6 +1,9 @@
-set -tmpdir "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn PID_NEXT.prj
+-ofn PID_NEXT
+-ofmt NGC
 -p xc6slx9-3-csg324
 -top PID_NEXT
 -opt_mode Speed
@@ -47,4 +50,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn PID_NEXT.prj

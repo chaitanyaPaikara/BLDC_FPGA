@@ -1,0 +1,6 @@
+verilog work "Digital_Filter.vf"
+verilog work "Sync_Transmitter_Baud.v"
+verilog work "Sync_Reciver.v"
+verilog work "PWM.v"
+verilog work "Commutation.vf"
+verilog work "Rough.vf"

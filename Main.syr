@@ -4,13 +4,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.50 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.50 secs
  
 --> Reading design: Main.prj
 
@@ -105,21 +105,57 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Incrementer_Decrementer.vf" into library work
+Parsing module <Incrementer_Decrementer>.
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Flip_flip9.vf" into library work
+Parsing module <Flip_flip9>.
 Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Delay_sub.vf" into library work
 Parsing module <Delay_sub>.
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\FD9CE.vf" into library work
+Parsing module <FD9CE>.
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Couter_9CE.vf" into library work
+Parsing module <Incrementer_Decrementer_MUSER_Couter_9CE>.
+Parsing module <Flip_flip9_MUSER_Couter_9CE>.
+Parsing module <Couter_9CE>.
 Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\PID_NEXT.v" into library work
 Parsing module <PID_NEXT>.
 Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Digital_Filter.vf" into library work
 Parsing module <FJKC_MXILINX_Digital_Filter>.
 Parsing module <Digital_Filter>.
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\pwm_42.v" into library work
+Parsing module <pwm_42>.
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\pwm_4.v" into library work
+Parsing module <pwm_4>.
 Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\PID.v" into library work
-Parsing module <PID_Controller>.
+Parsing module <PIDCONTROLLER>.
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\ETC_SYNCRONOUS.vf" into library work
+Parsing module <FD9CE_MUSER_ETC_SYNCRONOUS>.
+Parsing module <Incrementer_Decrementer_MUSER_ETC_SYNCRONOUS>.
+Parsing module <Flip_flip9_MUSER_ETC_SYNCRONOUS>.
+Parsing module <Couter_9CE_MUSER_ETC_SYNCRONOUS>.
+Parsing module <ETC_SYNCRONOUS>.
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Commutation.vf" into library work
+Parsing module <Commutation>.
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\CLOCK_32.v" into library work
+Parsing module <CLOCK_32>.
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\MAIN_2.vf" into library work
+Parsing module <Commutation_MUSER_MAIN_2>.
+Parsing module <MAIN_2>.
 Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Transmitter_Baud.v" into library work
 Parsing module <Sync_Transmitter_Baud>.
 Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Reciver.v" into library work
 Parsing module <Sync_Reciver>.
 Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\sub_part.vf" into library work
 Parsing module <sub_part>.
+Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main_Module.vf" into library work
+Parsing module <FD9CE_MUSER_Main_Module>.
+Parsing module <Incrementer_Decrementer_MUSER_Main_Module>.
+Parsing module <Flip_flip9_MUSER_Main_Module>.
+Parsing module <Couter_9CE_MUSER_Main_Module>.
+Parsing module <ETC_SYNCRONOUS_MUSER_Main_Module>.
+Parsing module <FJKC_MXILINX_Main_Module>.
+Parsing module <Digital_Filter_MUSER_Main_Module>.
+Parsing module <Main_Module>.
 Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main.vf" into library work
 Parsing module <sub_part_MUSER_Main>.
 Parsing module <Main>.
@@ -155,22 +191,64 @@ Elaborating module <AND2B1>.
 Elaborating module <GND>.
 WARNING:HDLCompiler:413 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Reciver.v" Line 76: Result of 5-bit expression is truncated to fit in 4-bit target.
 
-Elaborating module <Sync_Transmitter_Baud>.
-WARNING:HDLCompiler:413 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Transmitter_Baud.v" Line 58: Result of 12-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Transmitter_Baud.v" Line 93: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:1127 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Transmitter_Baud.v" Line 72: Assignment to Parity_Bit ignored, since the identifier is never used
+Elaborating module <Main_Module>.
+
+Elaborating module <Digital_Filter_MUSER_Main_Module>.
+
+Elaborating module <FJKC_MXILINX_Main_Module(INIT=1'b0)>.
+
+Elaborating module <ETC_SYNCRONOUS_MUSER_Main_Module>.
+
+Elaborating module <FDR(INIT=1'b0)>.
+
+Elaborating module <Couter_9CE_MUSER_Main_Module>.
+
+Elaborating module <Flip_flip9_MUSER_Main_Module>.
+
+Elaborating module <FDCE(INIT=1'b0)>.
+
+Elaborating module <Incrementer_Decrementer_MUSER_Main_Module>.
+
+Elaborating module <XOR2>.
+
+Elaborating module <AND2>.
+
+Elaborating module <FD9CE_MUSER_Main_Module>.
+
+Elaborating module <VCC>.
+
+Elaborating module <CLOCK_32>.
+WARNING:HDLCompiler:413 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\CLOCK_32.v" Line 35: Result of 19-bit expression is truncated to fit in 18-bit target.
+
+Elaborating module <MAIN_2>.
+
+Elaborating module <Commutation_MUSER_MAIN_2>.
+
+Elaborating module <OR2>.
+
+Elaborating module <MUXF8>.
+
+Elaborating module <pwm_4>.
+WARNING:HDLCompiler:413 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\pwm_4.v" Line 42: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <pwm_42>.
+WARNING:HDLCompiler:413 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\pwm_42.v" Line 42: Result of 9-bit expression is truncated to fit in 8-bit target.
 
 Elaborating module <sub_part_MUSER_Main>.
-
-Elaborating module <PID_Controller>.
-"C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\PID.v" Line 46. $display Velocity = 0
 
 Elaborating module <PID_NEXT>.
 
 Elaborating module <Delay_sub>.
-"C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\PID_NEXT.v" Line 33. $display in_vel[8] = 0
-"C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\PID_NEXT.v" Line 38. $display VELO = 0
-"C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\PID_NEXT.v" Line 39. $display temp = 0
+WARNING:HDLCompiler:413 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\PID_NEXT.v" Line 37: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <PIDCONTROLLER>.
+
+Elaborating module <Sync_Transmitter_Baud>.
+WARNING:HDLCompiler:413 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Transmitter_Baud.v" Line 58: Result of 12-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Transmitter_Baud.v" Line 93: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:1127 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Transmitter_Baud.v" Line 72: Assignment to Parity_Bit ignored, since the identifier is never used
+WARNING:HDLCompiler:552 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main.vf" Line 104: Input port RST_1 is not connected on this instance
+WARNING:HDLCompiler:552 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main.vf" Line 127: Input port RST is not connected on this instance
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -178,8 +256,10 @@ Elaborating module <Delay_sub>.
 
 Synthesizing Unit <Main>.
     Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main.vf".
-INFO:Xst:3210 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main.vf" line 75: Output port <Data_Ready> of the instance <XLXI_1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main.vf" line 75: Output port <Parity_ERR> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+WARNING:Xst:2898 - Port 'RST_1', unconnected in block instance 'XLXI_49', is tied to GND.
+WARNING:Xst:2898 - Port 'RST', unconnected in block instance 'XLXI_56', is tied to GND.
+INFO:Xst:3210 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main.vf" line 97: Output port <Data_Ready> of the instance <XLXI_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main.vf" line 97: Output port <Parity_ERR> of the instance <XLXI_5> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <Main> synthesized.
@@ -216,60 +296,127 @@ Synthesizing Unit <FJKC_MXILINX_Digital_Filter>.
 	no macro.
 Unit <FJKC_MXILINX_Digital_Filter> synthesized.
 
-Synthesizing Unit <Sync_Transmitter_Baud>.
-    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Transmitter_Baud.v".
-WARNING:Xst:647 - Input <Data9<8:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 1-bit register for signal <CLR_Flag>.
-    Found 1-bit register for signal <RST_O>.
-    Found 1-bit register for signal <CLR_Flag_O>.
-    Found 1-bit register for signal <CLK_Baud>.
-    Found 11-bit register for signal <Count_Baud>.
-    Found 1-bit register for signal <State>.
-    Found 4-bit register for signal <counter>.
-    Found 8-bit register for signal <Data_Reg>.
-    Found 1-bit register for signal <OUT_ser_reg>.
-    Found 1-bit register for signal <CLK_Baud_O>.
-    Found 11-bit adder for signal <Count_Baud[10]_GND_14_o_add_6_OUT> created at line 58.
-    Found 4-bit adder for signal <counter[3]_GND_14_o_add_22_OUT> created at line 93.
-    Found 4-bit comparator lessequal for signal <counter[3]_PWR_14_o_LessThan_22_o> created at line 91
+Synthesizing Unit <Main_Module>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main_Module.vf".
     Summary:
-	inferred   2 Adder/Subtractor(s).
-	inferred  30 D-type flip-flop(s).
+	no macro.
+Unit <Main_Module> synthesized.
+
+Synthesizing Unit <Digital_Filter_MUSER_Main_Module>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main_Module.vf".
+    Set property "HU_SET = XLXI_11_0" for instance <XLXI_11>.
+    Summary:
+	no macro.
+Unit <Digital_Filter_MUSER_Main_Module> synthesized.
+
+Synthesizing Unit <FJKC_MXILINX_Main_Module>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main_Module.vf".
+        INIT = 1'b0
+    Set property "RLOC = X0Y0" for instance <I_36_32>.
+    Summary:
+	no macro.
+Unit <FJKC_MXILINX_Main_Module> synthesized.
+
+Synthesizing Unit <ETC_SYNCRONOUS_MUSER_Main_Module>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main_Module.vf".
+    Summary:
+	no macro.
+Unit <ETC_SYNCRONOUS_MUSER_Main_Module> synthesized.
+
+Synthesizing Unit <Couter_9CE_MUSER_Main_Module>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main_Module.vf".
+    Summary:
+	no macro.
+Unit <Couter_9CE_MUSER_Main_Module> synthesized.
+
+Synthesizing Unit <Flip_flip9_MUSER_Main_Module>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main_Module.vf".
+    Summary:
+	no macro.
+Unit <Flip_flip9_MUSER_Main_Module> synthesized.
+
+Synthesizing Unit <Incrementer_Decrementer_MUSER_Main_Module>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main_Module.vf".
+    Summary:
+	no macro.
+Unit <Incrementer_Decrementer_MUSER_Main_Module> synthesized.
+
+Synthesizing Unit <FD9CE_MUSER_Main_Module>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main_Module.vf".
+    Summary:
+	no macro.
+Unit <FD9CE_MUSER_Main_Module> synthesized.
+
+Synthesizing Unit <CLOCK_32>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\CLOCK_32.v".
+    Found 1-bit register for signal <rst>.
+    Found 18-bit register for signal <c>.
+    Found 18-bit adder for signal <c[17]_GND_27_o_add_2_OUT> created at line 35.
+    Found 18-bit comparator greater for signal <PWR_27_o_c[17]_LessThan_2_o> created at line 29
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  19 D-type flip-flop(s).
 	inferred   1 Comparator(s).
-	inferred   2 Multiplexer(s).
-Unit <Sync_Transmitter_Baud> synthesized.
+Unit <CLOCK_32> synthesized.
+
+Synthesizing Unit <MAIN_2>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\MAIN_2.vf".
+    Summary:
+	no macro.
+Unit <MAIN_2> synthesized.
+
+Synthesizing Unit <Commutation_MUSER_MAIN_2>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\MAIN_2.vf".
+    Summary:
+	no macro.
+Unit <Commutation_MUSER_MAIN_2> synthesized.
+
+Synthesizing Unit <pwm_4>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\pwm_4.v".
+    Found 1-bit register for signal <S>.
+    Found 1-bit register for signal <Temp>.
+    Found 8-bit register for signal <Qn>.
+    Found 8-bit adder for signal <Qn[7]_GND_32_o_add_3_OUT> created at line 42.
+    Found 8-bit comparator greater for signal <Qn[7]_PWR_32_o_LessThan_3_o> created at line 41
+    Found 8-bit comparator lessequal for signal <n0008> created at line 51
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <pwm_4> synthesized.
+
+Synthesizing Unit <pwm_42>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\pwm_42.v".
+    Found 1-bit register for signal <S>.
+    Found 1-bit register for signal <Temp>.
+    Found 8-bit register for signal <Qn>.
+    Found 8-bit adder for signal <Qn[7]_GND_33_o_add_3_OUT> created at line 42.
+    Found 8-bit comparator greater for signal <Qn[7]_PWR_33_o_LessThan_3_o> created at line 41
+    Found 8-bit comparator greater for signal <Qn[7]_D[7]_LessThan_9_o> created at line 51
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <pwm_42> synthesized.
 
 Synthesizing Unit <sub_part_MUSER_Main>.
     Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main.vf".
+INFO:Xst:3210 - "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Main.vf" line 39: Output port <ovf> of the instance <XLXI_3> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <sub_part_MUSER_Main> synthesized.
 
-Synthesizing Unit <PID_Controller>.
-    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\PID.v".
-    Found 9-bit register for signal <error_diff>.
-    Found 9-bit register for signal <vel_output>.
-    Found 9-bit register for signal <prev_error>.
-    Found 9-bit register for signal <error>.
-    Found 9-bit subtractor for signal <GND_16_o_GND_16_o_sub_6_OUT> created at line 43.
-    Found 9-bit subtractor for signal <GND_16_o_prev_error[8]_sub_7_OUT> created at line 44.
-    Found 9-bit adder for signal <vel_output_w> created at line 34.
-    Found 4x9-bit multiplier for signal <n0022> created at line 34.
-    Found 4x9-bit multiplier for signal <n0023> created at line 34.
-    Summary:
-	inferred   2 Multiplier(s).
-	inferred   3 Adder/Subtractor(s).
-	inferred  36 D-type flip-flop(s).
-Unit <PID_Controller> synthesized.
-
 Synthesizing Unit <PID_NEXT>.
     Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\PID_NEXT.v".
-    Found 9-bit register for signal <out_vel>.
-    Found 9-bit subtractor for signal <out_temp[8]_in_vel[8]_sub_2_OUT> created at line 35.
-    Found 9-bit adder for signal <out_temp[8]_in_vel[8]_add_2_OUT> created at line 37.
+WARNING:Xst:653 - Signal <ovf> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 8-bit register for signal <out_vel>.
+    Found 10-bit adder for signal <out_temp[8]_in_vel[8]_add_1_OUT> created at line 34.
+    Found 9-bit adder for signal <n0009> created at line 37.
+    Found 32-bit comparator greater for signal <out_temp[8]_GND_35_o_LessThan_3_o> created at line 34
     Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred   9 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Comparator(s).
 Unit <PID_NEXT> synthesized.
 
 Synthesizing Unit <Delay_sub>.
@@ -278,27 +425,73 @@ Synthesizing Unit <Delay_sub>.
 	no macro.
 Unit <Delay_sub> synthesized.
 
+Synthesizing Unit <PIDCONTROLLER>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\BLDC_Controller\PID.v".
+    Found 9-bit register for signal <error_diff>.
+    Found 9-bit register for signal <vel_output>.
+    Found 9-bit register for signal <prev_error>.
+    Found 9-bit register for signal <error>.
+    Found 9-bit subtractor for signal <GND_37_o_current_vel[8]_sub_8_OUT> created at line 49.
+    Found 9-bit subtractor for signal <GND_37_o_prev_error[8]_sub_9_OUT> created at line 50.
+    Found 9-bit adder for signal <vel_output_w> created at line 36.
+    Found 4x9-bit multiplier for signal <n0026> created at line 36.
+    Found 4x9-bit multiplier for signal <n0027> created at line 36.
+    Summary:
+	inferred   2 Multiplier(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred  36 D-type flip-flop(s).
+Unit <PIDCONTROLLER> synthesized.
+
+Synthesizing Unit <Sync_Transmitter_Baud>.
+    Related source file is "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\Sync_Transmitter_Baud.v".
+    Found 1-bit register for signal <CLR_Flag>.
+    Found 1-bit register for signal <CLR_Flag_O>.
+    Found 1-bit register for signal <CLK_Baud>.
+    Found 11-bit register for signal <Count_Baud>.
+    Found 1-bit register for signal <State>.
+    Found 4-bit register for signal <counter>.
+    Found 8-bit register for signal <Data_Reg>.
+    Found 1-bit register for signal <OUT_ser_reg>.
+    Found 1-bit register for signal <CLK_Baud_O>.
+    Found 11-bit adder for signal <Count_Baud[10]_GND_39_o_add_5_OUT> created at line 58.
+    Found 4-bit adder for signal <counter[3]_GND_39_o_add_21_OUT> created at line 93.
+    Found 4-bit comparator lessequal for signal <counter[3]_PWR_39_o_LessThan_21_o> created at line 91
+    WARNING:Xst:2404 -  FFs/Latches <RST_O<0:0>> (without init value) have a constant value of 0 in block <Sync_Transmitter_Baud>.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <Sync_Transmitter_Baud> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
 # Multipliers                                          : 2
  9x4-bit multiplier                                    : 2
-# Adders/Subtractors                                   : 7
+# Adders/Subtractors                                   : 11
+ 10-bit adder                                          : 1
  11-bit adder                                          : 1
+ 18-bit adder                                          : 1
  4-bit adder                                           : 2
- 9-bit adder                                           : 1
- 9-bit addsub                                          : 1
+ 8-bit adder                                           : 2
+ 9-bit adder                                           : 2
  9-bit subtractor                                      : 2
-# Registers                                            : 22
- 1-bit register                                        : 12
+# Registers                                            : 29
+ 1-bit register                                        : 16
  11-bit register                                       : 1
+ 18-bit register                                       : 1
  4-bit register                                        : 2
- 8-bit register                                        : 2
- 9-bit register                                        : 5
-# Comparators                                          : 2
+ 8-bit register                                        : 5
+ 9-bit register                                        : 4
+# Comparators                                          : 8
+ 18-bit comparator greater                             : 1
+ 32-bit comparator greater                             : 1
  4-bit comparator greater                              : 1
  4-bit comparator lessequal                            : 1
+ 8-bit comparator greater                              : 3
+ 8-bit comparator lessequal                            : 1
 # Multiplexers                                         : 2
  1-bit 2-to-1 multiplexer                              : 1
  8-bit 2-to-1 multiplexer                              : 1
@@ -312,12 +505,15 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:2677 - Node <out_vel_8> of sequential type is unconnected in block <XLXI_3>.
 
-Synthesizing (advanced) Unit <PID_Controller>.
-	Multiplier <Mmult_n0023> in block <PID_Controller> and adder/subtractor <Madd_vel_output_w> in block <PID_Controller> are combined into a MAC<Maddsub_n0023>.
-	The following registers are also absorbed by the MAC: <vel_output> in block <PID_Controller>.
-Unit <PID_Controller> synthesized (advanced).
+Synthesizing (advanced) Unit <CLOCK_32>.
+The following registers are absorbed into counter <c>: 1 register on signal <c>.
+Unit <CLOCK_32> synthesized (advanced).
+
+Synthesizing (advanced) Unit <PIDCONTROLLER>.
+	Multiplier <Mmult_n0027> in block <PIDCONTROLLER> and adder/subtractor <Madd_vel_output_w> in block <PIDCONTROLLER> are combined into a MAC<Maddsub_n0027>.
+	The following registers are also absorbed by the MAC: <vel_output> in block <PIDCONTROLLER>.
+Unit <PIDCONTROLLER> synthesized (advanced).
 
 Synthesizing (advanced) Unit <Sync_Reciver>.
 The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
@@ -328,6 +524,14 @@ The following registers are absorbed into counter <Count_Baud>: 1 register on si
 The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
 Unit <Sync_Transmitter_Baud> synthesized (advanced).
 
+Synthesizing (advanced) Unit <pwm_4>.
+The following registers are absorbed into counter <Qn>: 1 register on signal <Qn>.
+Unit <pwm_4> synthesized (advanced).
+
+Synthesizing (advanced) Unit <pwm_42>.
+The following registers are absorbed into counter <Qn>: 1 register on signal <Qn>.
+Unit <pwm_42> synthesized (advanced).
+
 =========================================================================
 Advanced HDL Synthesis Report
 
@@ -336,17 +540,24 @@ Macro Statistics
  9x4-to-9-bit MAC                                      : 1
 # Multipliers                                          : 1
  9x4-bit multiplier                                    : 1
-# Adders/Subtractors                                   : 3
- 9-bit addsub                                          : 1
+# Adders/Subtractors                                   : 4
+ 10-bit adder                                          : 1
+ 8-bit adder                                           : 1
  9-bit subtractor                                      : 2
-# Counters                                             : 3
+# Counters                                             : 6
  11-bit up counter                                     : 1
+ 18-bit up counter                                     : 1
  4-bit up counter                                      : 2
-# Registers                                            : 78
- Flip-Flops                                            : 78
-# Comparators                                          : 2
+ 8-bit up counter                                      : 2
+# Registers                                            : 113
+ Flip-Flops                                            : 113
+# Comparators                                          : 8
+ 18-bit comparator greater                             : 1
+ 32-bit comparator greater                             : 1
  4-bit comparator greater                              : 1
  4-bit comparator lessequal                            : 1
+ 8-bit comparator greater                              : 3
+ 8-bit comparator lessequal                            : 1
 # Multiplexers                                         : 1
  8-bit 2-to-1 multiplexer                              : 1
 # Xors                                                 : 2
@@ -359,39 +570,78 @@ Macro Statistics
 *                         Low Level Synthesis                           *
 =========================================================================
 
-Optimizing unit <Main> ...
-
 Optimizing unit <Delay_sub> ...
 
 Optimizing unit <Digital_Filter> ...
 
 Optimizing unit <FJKC_MXILINX_Digital_Filter> ...
 
-Optimizing unit <sub_part_MUSER_Main> ...
+Optimizing unit <Digital_Filter_MUSER_Main_Module> ...
+
+Optimizing unit <FJKC_MXILINX_Main_Module> ...
+
+Optimizing unit <ETC_SYNCRONOUS_MUSER_Main_Module> ...
+
+Optimizing unit <Flip_flip9_MUSER_Main_Module> ...
+
+Optimizing unit <Incrementer_Decrementer_MUSER_Main_Module> ...
+
+Optimizing unit <FD9CE_MUSER_Main_Module> ...
+
+Optimizing unit <MAIN_2> ...
+
+Optimizing unit <Commutation_MUSER_MAIN_2> ...
+
+Optimizing unit <Main> ...
+
+Optimizing unit <PIDCONTROLLER> ...
+
+Optimizing unit <PID_NEXT> ...
 
 Optimizing unit <Sync_Reciver> ...
 
+Optimizing unit <pwm_4> ...
+
+Optimizing unit <pwm_42> ...
+
 Optimizing unit <Sync_Transmitter_Baud> ...
-WARNING:Xst:2677 - Node <XLXI_3/XLXI_3/out_vel_8> of sequential type is unconnected in block <Main>.
-WARNING:Xst:2677 - Node <XLXI_1/Data_Ready_R> of sequential type is unconnected in block <Main>.
-INFO:Xst:2261 - The FF/Latch <XLXI_1/Baud_CLK_O> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_2/CLK_Baud_O> 
+WARNING:Xst:2677 - Node <XLXI_5/Data_Ready_R> of sequential type is unconnected in block <Main>.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/XLXI_283/Temp> has a constant value of 0 in block <Main>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <XLXI_51/XLXI_281/Qn_0> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_51/XLXI_283/Qn_0> 
+INFO:Xst:2261 - The FF/Latch <XLXI_51/XLXI_281/Qn_1> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_51/XLXI_283/Qn_1> 
+INFO:Xst:2261 - The FF/Latch <XLXI_51/XLXI_281/Qn_2> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_51/XLXI_283/Qn_2> 
+INFO:Xst:2261 - The FF/Latch <XLXI_51/XLXI_281/Qn_3> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_51/XLXI_283/Qn_3> 
+INFO:Xst:2261 - The FF/Latch <XLXI_51/XLXI_281/Qn_4> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_51/XLXI_283/Qn_4> 
+INFO:Xst:2261 - The FF/Latch <XLXI_5/Baud_CLK_O> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_56/CLK_Baud_O> 
+INFO:Xst:2261 - The FF/Latch <XLXI_51/XLXI_281/Qn_5> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_51/XLXI_283/Qn_5> 
+INFO:Xst:2261 - The FF/Latch <XLXI_51/XLXI_281/Qn_6> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_51/XLXI_283/Qn_6> 
+INFO:Xst:2261 - The FF/Latch <XLXI_51/XLXI_281/Qn_7> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_51/XLXI_283/Qn_7> 
+INFO:Xst:2261 - The FF/Latch <XLXI_52/XLXI_4/error_0> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_52/XLXI_4/prev_error_0> 
+INFO:Xst:2261 - The FF/Latch <XLXI_52/XLXI_4/error_1> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_52/XLXI_4/prev_error_1> 
+INFO:Xst:2261 - The FF/Latch <XLXI_52/XLXI_4/error_2> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_52/XLXI_4/prev_error_2> 
+INFO:Xst:2261 - The FF/Latch <XLXI_52/XLXI_4/error_3> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_52/XLXI_4/prev_error_3> 
+INFO:Xst:2261 - The FF/Latch <XLXI_52/XLXI_4/error_4> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_52/XLXI_4/prev_error_4> 
+INFO:Xst:2261 - The FF/Latch <XLXI_52/XLXI_4/error_5> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_52/XLXI_4/prev_error_5> 
+INFO:Xst:2261 - The FF/Latch <XLXI_52/XLXI_4/error_6> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_52/XLXI_4/prev_error_6> 
+INFO:Xst:2261 - The FF/Latch <XLXI_52/XLXI_4/error_7> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_52/XLXI_4/prev_error_7> 
+INFO:Xst:2261 - The FF/Latch <XLXI_52/XLXI_4/error_8> in Unit <Main> is equivalent to the following FF/Latch, which will be removed : <XLXI_52/XLXI_4/prev_error_8> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Main, actual ratio is 2.
+Found area constraint ratio of 100 (+ 5) on block Main, actual ratio is 4.
 
 Final Macro Processing ...
 
 Processing Unit <Main> :
-	Found 2-bit shift register for signal <XLXI_1/Data_Reg_7>.
+	Found 2-bit shift register for signal <XLXI_5/Data_Reg_7>.
 Unit <Main> processed.
 
 =========================================================================
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 83
- Flip-Flops                                            : 83
+# Registers                                            : 144
+ Flip-Flops                                            : 144
 # Shift Registers                                      : 1
  2-bit shift register                                  : 1
 
@@ -416,37 +666,41 @@ Top Level Output File Name         : Main.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 142
-#      AND2B1                      : 1
-#      AND3B1                      : 1
-#      AND3B2                      : 1
-#      AND4                        : 2
+# BELS                             : 367
+#      AND2                        : 12
+#      AND2B1                      : 3
+#      AND3B1                      : 3
+#      AND3B2                      : 3
+#      AND4                        : 6
 #      GND                         : 1
-#      INV                         : 12
-#      LUT1                        : 10
-#      LUT2                        : 9
+#      INV                         : 27
+#      LUT1                        : 34
+#      LUT2                        : 39
 #      LUT3                        : 14
 #      LUT4                        : 15
-#      LUT5                        : 7
-#      LUT6                        : 14
-#      MUXCY                       : 25
-#      OR3                         : 1
+#      LUT5                        : 10
+#      LUT6                        : 21
+#      MUXCY                       : 66
+#      MUXF8                       : 12
+#      OR2                         : 4
+#      OR3                         : 5
 #      VCC                         : 1
-#      XORCY                       : 28
-# FlipFlops/Latches                : 84
-#      FD                          : 28
-#      FDC                         : 1
-#      FDE                         : 25
-#      FDR                         : 9
-#      FDRE                        : 17
-#      FDS                         : 4
+#      XOR2                        : 26
+#      XORCY                       : 65
+# FlipFlops/Latches                : 145
+#      FD                          : 49
+#      FDC                         : 3
+#      FDCE                        : 9
+#      FDE                         : 34
+#      FDR                         : 44
+#      FDRE                        : 6
 # Shift Registers                  : 1
 #      SRLC16E                     : 1
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 14
-#      IBUF                        : 13
-#      OBUF                        : 1
+# IO Buffers                       : 32
+#      IBUF                        : 16
+#      OBUF                        : 16
 # DSPs                             : 2
 #      DSP48A1                     : 2
 
@@ -457,22 +711,22 @@ Selected Device : 6slx9csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              84  out of  11440     0%  
- Number of Slice LUTs:                   82  out of   5720     1%  
-    Number used as Logic:                81  out of   5720     1%  
+ Number of Slice Registers:             145  out of  11440     1%  
+ Number of Slice LUTs:                  161  out of   5720     2%  
+    Number used as Logic:               160  out of   5720     2%  
     Number used as Memory:                1  out of   1440     0%  
        Number used as SRL:                1
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    116
-   Number with an unused Flip Flop:      32  out of    116    27%  
-   Number with an unused LUT:            34  out of    116    29%  
-   Number of fully used LUT-FF pairs:    50  out of    116    43%  
-   Number of unique control sets:        10
+ Number of LUT Flip Flop pairs used:    220
+   Number with an unused Flip Flop:      75  out of    220    34%  
+   Number with an unused LUT:            59  out of    220    26%  
+   Number of fully used LUT-FF pairs:    86  out of    220    39%  
+   Number of unique control sets:        16
 
 IO Utilization: 
- Number of IOs:                          15
- Number of bonded IOBs:                  15  out of    200     7%  
+ Number of IOs:                          33
+ Number of bonded IOBs:                  33  out of    200    16%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
@@ -496,11 +750,13 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------+------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)  | Load  |
------------------------------------+------------------------+-------+
-CLK                                | BUFGP                  | 87    |
------------------------------------+------------------------+-------+
+-----------------------------------+-------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)               | Load  |
+-----------------------------------+-------------------------------------+-------+
+CLK                                | BUFGP                               | 138   |
+XLXI_49/XLXI_42/rst                | NONE(XLXI_49/XLXI_41/XLXI_48/XLXI_9)| 9     |
+-----------------------------------+-------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
 ----------------------------------------
@@ -510,10 +766,10 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 8.148ns (Maximum Frequency: 122.730MHz)
-   Minimum input arrival time before clock: 7.675ns
-   Maximum output required time after clock: 3.668ns
-   Maximum combinational path delay: No path found
+   Minimum period: 13.406ns (Maximum Frequency: 74.596MHz)
+   Minimum input arrival time before clock: 8.321ns
+   Maximum output required time after clock: 5.727ns
+   Maximum combinational path delay: 7.737ns
 
 Timing Details:
 ---------------
@@ -521,63 +777,122 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
-  Clock period: 8.148ns (frequency: 122.730MHz)
-  Total number of paths / destination ports: 1045 / 192
+  Clock period: 13.406ns (frequency: 74.596MHz)
+  Total number of paths / destination ports: 3084 / 277
 -------------------------------------------------------------------------
-Delay:               8.148ns (Levels of Logic = 0)
-  Source:            XLXI_3/XLXI_2/Mmult_n0022 (DSP)
-  Destination:       XLXI_3/XLXI_2/Maddsub_n0023 (DSP)
+Delay:               13.406ns (Levels of Logic = 11)
+  Source:            XLXI_49/XLXI_34/XLXI_11/I_36_32 (FF)
+  Destination:       XLXI_49/XLXI_41/XLXI_8/XLXI_3/XLXI_18 (FF)
   Source Clock:      CLK rising
   Destination Clock: CLK rising
 
-  Data Path: XLXI_3/XLXI_2/Mmult_n0022 to XLXI_3/XLXI_2/Maddsub_n0023
+  Data Path: XLXI_49/XLXI_34/XLXI_11/I_36_32 to XLXI_49/XLXI_41/XLXI_8/XLXI_3/XLXI_18
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     DSP48A1:CLK->PCOUT47    1   6.743   0.000  XLXI_3/XLXI_2/Mmult_n0022 (XLXI_3/XLXI_2/Mmult_n0022_PCOUT_to_XLXI_2/Maddsub_n0023_PCIN_47)
-     DSP48A1:PCIN47            1.405          XLXI_3/XLXI_2/Maddsub_n0023
+     FDC:C->Q             20   0.447   1.457  I_36_32 (Q)
+     end scope: 'XLXI_49/XLXI_34/XLXI_11:Q'
+     XOR2:I0->O            3   0.203   0.995  XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXI_9 (XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXN_52)
+     AND2:I1->O            2   0.223   0.961  XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXI_35 (XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXN_55)
+     AND2:I1->O            2   0.223   0.961  XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXI_21 (XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXN_57)
+     AND2:I1->O            2   0.223   0.961  XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXI_20 (XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXN_48)
+     AND2:I1->O            2   0.223   0.961  XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXI_19 (XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXN_47)
+     AND2:I1->O            2   0.223   0.961  XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXI_18 (XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXN_46)
+     AND2:I1->O            2   0.223   0.961  XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXI_17 (XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXN_75)
+     AND2:I1->O            1   0.223   0.924  XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXI_49 (XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXN_73)
+     XOR2:I1->O            1   0.223   0.924  XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXI_48 (XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXN_71)
+     XOR2:I1->O            1   0.223   0.579  XLXI_49/XLXI_41/XLXI_8/XLXI_4/XLXI_46 (XLXI_49/XLXI_41/XLXI_8/XLXN_1)
+     FDCE:D                    0.102          XLXI_49/XLXI_41/XLXI_8/XLXI_3/XLXI_18
     ----------------------------------------
-    Total                      8.148ns (8.148ns logic, 0.000ns route)
-                                       (100.0% logic, 0.0% route)
+    Total                     13.406ns (2.759ns logic, 10.647ns route)
+                                       (20.6% logic, 79.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
-  Total number of paths / destination ports: 272 / 116
+  Total number of paths / destination ports: 290 / 85
 -------------------------------------------------------------------------
-Offset:              7.675ns (Levels of Logic = 2)
-  Source:            Kp<3> (PAD)
-  Destination:       XLXI_3/XLXI_2/Maddsub_n0023 (DSP)
+Offset:              8.321ns (Levels of Logic = 7)
+  Source:            H3 (PAD)
+  Destination:       XLXI_51/XLXI_281/Temp (FF)
   Destination Clock: CLK rising
 
-  Data Path: Kp<3> to XLXI_3/XLXI_2/Maddsub_n0023
+  Data Path: H3 to XLXI_51/XLXI_281/Temp
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   1.222   0.579  Kp_3_IBUF (Kp_3_IBUF)
-     DSP48A1:A3->PCOUT47    1   4.469   0.000  XLXI_3/XLXI_2/Mmult_n0022 (XLXI_3/XLXI_2/Mmult_n0022_PCOUT_to_XLXI_2/Maddsub_n0023_PCIN_47)
-     DSP48A1:PCIN47            1.405          XLXI_3/XLXI_2/Maddsub_n0023
+     IBUF:I->O             3   1.222   0.650  H3_IBUF (H3_IBUF)
+     INV:I->O              2   0.568   0.961  XLXI_51/XLXI_71/XLXI_26 (XLXI_51/XLXI_71/XLXN_58)
+     OR2:I1->O             2   0.223   0.616  XLXI_51/XLXI_71/XLXI_29 (XLXI_51/XLXN_376)
+     INV:I->O              1   0.568   0.944  XLXI_51/XLXI_160 (XLXI_51/XLXN_289)
+     OR3:I0->O             4   0.203   1.048  XLXI_51/XLXI_189 (XLXI_51/XLXN_335)
+     LUT6:I0->O            1   0.203   0.808  XLXI_51/XLXI_281/_n0028 (XLXI_51/XLXI_281/_n0028)
+     LUT4:I1->O            1   0.205   0.000  XLXI_51/XLXI_281/Temp_rstpot (XLXI_51/XLXI_281/Temp_rstpot)
+     FD:D                      0.102          XLXI_51/XLXI_281/Temp
     ----------------------------------------
-    Total                      7.675ns (7.096ns logic, 0.579ns route)
-                                       (92.5% logic, 7.5% route)
+    Total                      8.321ns (3.294ns logic, 5.027ns route)
+                                       (39.6% logic, 60.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_49/XLXI_42/rst'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            XLXI_49/XLXI_41/XLXI_48/XLXI_9 (FF)
+  Destination:       Data_Rx<8> (PAD)
+  Source Clock:      XLXI_49/XLXI_42/rst rising
+
+  Data Path: XLXI_49/XLXI_41/XLXI_48/XLXI_9 to Data_Rx<8>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  XLXI_49/XLXI_41/XLXI_48/XLXI_9 (Data_Rx_8_OBUF)
+     OBUF:I->O                 2.571          Data_Rx_8_OBUF (Data_Rx<8>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
-  Total number of paths / destination ports: 1 / 1
+  Total number of paths / destination ports: 13 / 7
 -------------------------------------------------------------------------
-Offset:              3.668ns (Levels of Logic = 1)
-  Source:            XLXI_2/OUT_ser_reg (FF)
-  Destination:       Tx (PAD)
+Offset:              5.727ns (Levels of Logic = 3)
+  Source:            XLXI_51/XLXI_281/Temp (FF)
+  Destination:       A (PAD)
   Source Clock:      CLK rising
 
-  Data Path: XLXI_2/OUT_ser_reg to Tx
+  Data Path: XLXI_51/XLXI_281/Temp to A
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDS:C->Q              3   0.447   0.650  XLXI_2/OUT_ser_reg (XLXI_2/OUT_ser_reg)
-     OBUF:I->O                 2.571          Tx_OBUF (Tx)
+     FD:C->Q               2   0.447   0.981  XLXI_51/XLXI_281/Temp (XLXI_51/XLXI_281/Temp)
+     OR2:I0->O             6   0.203   0.744  XLXI_51/XLXI_192 (XLXI_51/XLXN_364)
+     MUXF8:S->O            1   0.202   0.579  XLXI_51/XLXI_132 (A_OBUF)
+     OBUF:I->O                 2.571          A_OBUF (A)
     ----------------------------------------
-    Total                      3.668ns (3.018ns logic, 0.650ns route)
-                                       (82.3% logic, 17.7% route)
+    Total                      5.727ns (3.423ns logic, 2.304ns route)
+                                       (59.8% logic, 40.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 12 / 6
+-------------------------------------------------------------------------
+Delay:               7.737ns (Levels of Logic = 6)
+  Source:            H1 (PAD)
+  Destination:       A (PAD)
+
+  Data Path: H1 to A
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.650  H1_IBUF (H1_IBUF)
+     INV:I->O              2   0.568   0.961  XLXI_51/XLXI_71/XLXI_24 (XLXI_51/XLXI_71/XLXN_59)
+     OR2:I1->O             2   0.223   0.616  XLXI_51/XLXI_71/XLXI_27 (XLXI_51/XLXN_370)
+     MUXF8:S->O            1   0.202   0.000  XLXI_51/XLXI_108 (XLXI_51/XLXN_267)
+     MUXF8:I0->O           1   0.144   0.579  XLXI_51/XLXI_132 (A_OBUF)
+     OBUF:I->O                 2.571          A_OBUF (A)
+    ----------------------------------------
+    Total                      7.737ns (4.930ns logic, 2.807ns route)
+                                       (63.7% logic, 36.3% route)
 
 =========================================================================
 
@@ -585,24 +900,33 @@ Cross Clock Domains Report:
 --------------------------
 
 Clock to Setup on destination clock CLK
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+CLK                |   13.406|         |         |         |
+XLXI_49/XLXI_42/rst|    3.114|         |         |         |
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock XLXI_49/XLXI_42/rst
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |    8.148|         |         |         |
+CLK            |    1.165|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.52 secs
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.29 secs
  
 --> 
 
-Total memory usage is 276168 kilobytes
+Total memory usage is 292368 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    8 (   0 filtered)
-Number of infos    :    3 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
+Number of infos    :   22 (   0 filtered)
 

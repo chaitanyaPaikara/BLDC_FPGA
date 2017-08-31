@@ -1,0 +1,8 @@
+Release 14.2 Drc P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Tue Jun 06 22:29:16 2017
+
+drc -z Rough.ncd Rough.pcf
+
+DRC detected 0 errors and 0 warnings.

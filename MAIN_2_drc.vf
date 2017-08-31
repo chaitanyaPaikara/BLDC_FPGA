@@ -1,0 +1,221 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MAIN_2_drc.vf
+// /___/   /\     Timestamp : 06/14/2017 20:07:36
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan6 -verilog MAIN_2_drc.vf -w "C:/Users/Chaitanya Paikara/Documents/GitHub/MAIN_2.sch"
+//Design Name: MAIN_2
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Commutation_MUSER_MAIN_2(H1, 
+                                H2, 
+                                H3, 
+                                A, 
+                                AA, 
+                                B, 
+                                BB, 
+                                C, 
+                                CC);
+
+    input H1;
+    input H2;
+    input H3;
+   output A;
+   output AA;
+   output B;
+   output BB;
+   output C;
+   output CC;
+   
+   wire XLXN_58;
+   wire XLXN_59;
+   wire XLXN_60;
+   
+   INV  XLXI_24 (.I(H1), 
+                .O(XLXN_59));
+   INV  XLXI_25 (.I(H2), 
+                .O(XLXN_60));
+   INV  XLXI_26 (.I(H3), 
+                .O(XLXN_58));
+   OR2  XLXI_27 (.I0(H2), 
+                .I1(XLXN_59), 
+                .O(A));
+   OR2  XLXI_28 (.I0(H3), 
+                .I1(XLXN_60), 
+                .O(B));
+   OR2  XLXI_29 (.I0(H1), 
+                .I1(XLXN_58), 
+                .O(C));
+   AND2  XLXI_33 (.I0(H2), 
+                 .I1(XLXN_59), 
+                 .O(AA));
+   AND2  XLXI_34 (.I0(H3), 
+                 .I1(XLXN_60), 
+                 .O(BB));
+   AND2  XLXI_35 (.I0(H1), 
+                 .I1(XLXN_58), 
+                 .O(CC));
+endmodule
+`timescale 1ns / 1ps
+
+module MAIN_2(CLK, 
+              D, 
+              H1, 
+              H2, 
+              H3, 
+              A, 
+              AA, 
+              B, 
+              BB, 
+              C, 
+              CC);
+
+    input CLK;
+    input [7:0] D;
+    input H1;
+    input H2;
+    input H3;
+   output A;
+   output AA;
+   output B;
+   output BB;
+   output C;
+   output CC;
+   
+   wire XLXN_216;
+   wire XLXN_267;
+   wire XLXN_268;
+   wire XLXN_269;
+   wire XLXN_270;
+   wire XLXN_271;
+   wire XLXN_272;
+   wire XLXN_275;
+   wire XLXN_276;
+   wire XLXN_277;
+   wire XLXN_278;
+   wire XLXN_279;
+   wire XLXN_281;
+   wire XLXN_288;
+   wire XLXN_289;
+   wire XLXN_335;
+   wire XLXN_336;
+   wire XLXN_338;
+   wire XLXN_347;
+   wire XLXN_352;
+   wire XLXN_357;
+   wire XLXN_361;
+   wire XLXN_362;
+   wire XLXN_363;
+   wire XLXN_364;
+   wire XLXN_370;
+   wire XLXN_373;
+   wire XLXN_374;
+   wire XLXN_375;
+   wire XLXN_376;
+   
+   Commutation_MUSER_MAIN_2  XLXI_71 (.H1(H1), 
+                                     .H2(H2), 
+                                     .H3(H3), 
+                                     .A(XLXN_370), 
+                                     .AA(XLXN_373), 
+                                     .B(XLXN_374), 
+                                     .BB(XLXN_375), 
+                                     .C(XLXN_376), 
+                                     .CC(XLXN_338));
+   MUXF8  XLXI_108 (.I0(XLXN_347), 
+                   .I1(XLXN_357), 
+                   .S(XLXN_370), 
+                   .O(XLXN_267));
+   MUXF8  XLXI_109 (.I0(XLXN_361), 
+                   .I1(XLXN_352), 
+                   .S(XLXN_373), 
+                   .O(XLXN_268));
+   MUXF8  XLXI_110 (.I0(XLXN_347), 
+                   .I1(XLXN_357), 
+                   .S(XLXN_374), 
+                   .O(XLXN_269));
+   MUXF8  XLXI_111 (.I0(XLXN_361), 
+                   .I1(XLXN_352), 
+                   .S(XLXN_375), 
+                   .O(XLXN_270));
+   MUXF8  XLXI_112 (.I0(XLXN_347), 
+                   .I1(XLXN_357), 
+                   .S(XLXN_376), 
+                   .O(XLXN_271));
+   MUXF8  XLXI_113 (.I0(XLXN_361), 
+                   .I1(XLXN_352), 
+                   .S(XLXN_338), 
+                   .O(XLXN_272));
+   MUXF8  XLXI_132 (.I0(XLXN_267), 
+                   .I1(XLXN_281), 
+                   .S(XLXN_364), 
+                   .O(A));
+   MUXF8  XLXI_133 (.I0(XLXN_268), 
+                   .I1(XLXN_275), 
+                   .S(XLXN_364), 
+                   .O(AA));
+   MUXF8  XLXI_134 (.I0(XLXN_269), 
+                   .I1(XLXN_276), 
+                   .S(XLXN_364), 
+                   .O(B));
+   MUXF8  XLXI_135 (.I0(XLXN_270), 
+                   .I1(XLXN_277), 
+                   .S(XLXN_364), 
+                   .O(BB));
+   MUXF8  XLXI_136 (.I0(XLXN_271), 
+                   .I1(XLXN_278), 
+                   .S(XLXN_364), 
+                   .O(C));
+   MUXF8  XLXI_141 (.I0(XLXN_272), 
+                   .I1(XLXN_279), 
+                   .S(XLXN_364), 
+                   .O(CC));
+   GND  XLXI_147 (.G(XLXN_277));
+   GND  XLXI_148 (.G(XLXN_275));
+   GND  XLXI_149 (.G(XLXN_279));
+   VCC  XLXI_154 (.P(XLXN_281));
+   VCC  XLXI_155 (.P(XLXN_276));
+   VCC  XLXI_156 (.P(XLXN_278));
+   INV  XLXI_157 (.I(XLXN_370), 
+                 .O(XLXN_336));
+   INV  XLXI_159 (.I(XLXN_374), 
+                 .O(XLXN_288));
+   INV  XLXI_160 (.I(XLXN_376), 
+                 .O(XLXN_289));
+   OR3  XLXI_188 (.I0(XLXN_338), 
+                 .I1(XLXN_375), 
+                 .I2(XLXN_373), 
+                 .O(XLXN_216));
+   OR3  XLXI_189 (.I0(XLXN_289), 
+                 .I1(XLXN_288), 
+                 .I2(XLXN_336), 
+                 .O(XLXN_335));
+   VCC  XLXI_190 (.P(XLXN_357));
+   OR2  XLXI_192 (.I0(XLXN_363), 
+                 .I1(XLXN_362), 
+                 .O(XLXN_364));
+   GND  XLXI_278 (.G(XLXN_361));
+   pwm_4  XLXI_281 (.CL(CLK), 
+                   .D(D[7:0]), 
+                   .E(XLXN_335), 
+                   .P(XLXN_347), 
+                   .X(XLXN_363));
+   pwm_42  XLXI_283 (.CL(CLK), 
+                    .D(D[7:0]), 
+                    .E(XLXN_216), 
+                    .P(XLXN_352), 
+                    .X(XLXN_362));
+endmodule

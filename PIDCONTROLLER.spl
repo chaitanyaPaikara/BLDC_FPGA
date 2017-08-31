@@ -1,6 +1,7 @@
 [Inputs]
 clk
 en
+=target_vel[7:0]=
 =current_vel[8:0]=
 =KpKd[7:0]=
 [Outputs]

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\TESTUART.ncd
+OUTFILE=C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1\TESTUART.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg324
+WORKINGDIR=C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_FPGA\UART_1_1
+LICENSE=WebPack
+USER_INFO=__0_0_0

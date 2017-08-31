@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/BLDC_Controller/CLOCK_32.v} -lang verilog -prj UART_1_1 -o CLOCK_32.spl -module CLOCK_32 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w CLOCK_32.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/CLOCK_32.sym} 

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-06-04T16:50:39</DateModified>
-  <ModuleName>Sync_Transmitter_Baud_9</ModuleName>
-  <SummaryTimeStamp>2017-05-31T03:35:44</SummaryTimeStamp>
+  <DateModified>2017-08-31T19:35:39</DateModified>
+  <ModuleName>Main</ModuleName>
+  <SummaryTimeStamp>2017-06-16T16:55:23</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/iseconfig/Main.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1\</ImplementationReportsDirectory>
-  <DateInitialized>2017-06-04T16:50:39</DateInitialized>
+  <DateInitialized>2017-06-16T16:56:19</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

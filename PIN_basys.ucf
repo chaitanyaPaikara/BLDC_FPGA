@@ -1,6 +1,15 @@
+#COMMUTATION
+NET "H1" LOC = J3 ;
+NET "H2" LOC = C5;
+NET "H3" LOC = A10;
+NET "A" LOC = B2;
+NET "AA" LOC = A3;
+NET "B" LOC = C6;
+NET "BB" LOC = B6;
+NET "C" LOC = A9;
+NET "CC" LOC = B9;
+#COMMUTATION
 NET "CLK" LOC = B8;
-NET "CLR" LOC = A7;
-#NET "CLR_Rx" LOC = M4;
 #NET "Data_Tx[0]" LOC = P11;
 #NET "Data_Tx[1]" LOC = L3;
 #NET "Data_Tx[2]" LOC = K3;
@@ -19,9 +28,8 @@ NET "Data_Rx[6]" LOC = P4;
 NET "Data_Rx[7]" LOC = G1;
 #NET "parity_err" #LOC = N13;
 NET "CLR_Rx" LOC = C11;
-NET "EN" LOC = P11;
-NET "Rx" LOC = A9;   
-NET "OUT_ser" LOC = B9;
-NET "RST_1" LOC = M4;   
-NET "E_1" LOC = C6;
-NET "E_2" LOC = B6;
+#NET "EN" LOC = P11;
+NET "Rx" LOC = C9;   
+#NET "OUT_ser" LOC = "C12";		#B9;
+#NET "E_1" LOC = 	"B5";		#C6;
+#NET "E_2" LOC =  	"C9";		#B6;

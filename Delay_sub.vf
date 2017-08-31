@@ -7,7 +7,7 @@
 // \   \   \/     Version : 14.2
 //  \   \         Application : sch2hdl
 //  /   /         Filename : Delay_sub.vf
-// /___/   /\     Timestamp : 05/30/2017 18:33:19
+// /___/   /\     Timestamp : 06/16/2017 16:53:03
 // \   \  /  \ 
 //  \___\/\___\ 
 //
@@ -29,9 +29,6 @@ module Delay_sub(CLK,
    output [8:0] outputOP;
    
    
-   FD #( .INIT(1'b0) ) XLXI_2 (.C(CLK), 
-              .D(inputIP[8]), 
-              .Q(outputOP[8]));
    FD #( .INIT(1'b0) ) XLXI_3 (.C(CLK), 
               .D(inputIP[7]), 
               .Q(outputOP[7]));
@@ -56,4 +53,7 @@ module Delay_sub(CLK,
    FD #( .INIT(1'b0) ) XLXI_10 (.C(CLK), 
                .D(inputIP[0]), 
                .Q(outputOP[0]));
+   FD #( .INIT(1'b0) ) XLXI_11 (.C(CLK), 
+               .D(inputIP[8]), 
+               .Q(outputOP[8]));
 endmodule

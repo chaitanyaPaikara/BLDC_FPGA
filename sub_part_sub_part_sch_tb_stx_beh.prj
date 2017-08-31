@@ -1,5 +1,6 @@
 verilog isim_temp "Delay_sub.vf"
 verilog isim_temp "PID_NEXT.v"
 verilog isim_temp "../BLDC_Controller/PID.v"
+verilog isim_temp "sub_part.vf"
 verilog isim_temp "sub_part_TB.v"
 verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

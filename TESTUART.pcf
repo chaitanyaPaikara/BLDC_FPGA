@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Thu Jun 08 15:31:34 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Data_Tx<5>" LOCATE = SITE "D17" LEVEL 1;
+COMP "Data_Tx<6>" LOCATE = SITE "C18" LEVEL 1;
+COMP "Data_Tx<7>" LOCATE = SITE "C17" LEVEL 1;
+COMP "CLR_Rx" LOCATE = SITE "L18" LEVEL 1;
+COMP "OUT_ser" LOCATE = SITE "U7" LEVEL 1;
+COMP "Data_Rx<0>" LOCATE = SITE "P15" LEVEL 1;
+COMP "Data_Rx<1>" LOCATE = SITE "P16" LEVEL 1;
+COMP "Data_Rx<2>" LOCATE = SITE "N15" LEVEL 1;
+COMP "Data_Rx<3>" LOCATE = SITE "N16" LEVEL 1;
+COMP "Data_Rx<4>" LOCATE = SITE "U17" LEVEL 1;
+COMP "Data_Rx<5>" LOCATE = SITE "U18" LEVEL 1;
+COMP "Data_Rx<6>" LOCATE = SITE "T17" LEVEL 1;
+COMP "Data_Rx<7>" LOCATE = SITE "T18" LEVEL 1;
+COMP "Rx" LOCATE = SITE "V7" LEVEL 1;
+COMP "Data_Tx<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "CLK" LOCATE = SITE "V10" LEVEL 1;
+COMP "Data_Tx<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "Data_Tx<2>" LOCATE = SITE "E16" LEVEL 1;
+COMP "Data_Tx<3>" LOCATE = SITE "E18" LEVEL 1;
+COMP "CLR" LOCATE = SITE "M18" LEVEL 1;
+COMP "Data_Tx<4>" LOCATE = SITE "D18" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

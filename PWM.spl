@@ -1,0 +1,9 @@
+[Inputs]
+CLK
+=sel[7:0]=
+[Outputs]
+OUTput
+[BiDir]
+[ATTRIBUTES]
+VeriModel PWM
+

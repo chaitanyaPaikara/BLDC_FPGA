@@ -2,7 +2,8 @@
 CLK
 =in_vel[8:0]=
 [Outputs]
-=out_vel[8:0]=
+ovf
+=out_vel[7:0]=
 [BiDir]
 [ATTRIBUTES]
 VeriModel PID_NEXT

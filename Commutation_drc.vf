@@ -1,0 +1,71 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Commutation_drc.vf
+// /___/   /\     Timestamp : 06/14/2017 13:01:24
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan6 -verilog Commutation_drc.vf -w "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/BLDC_Controller/Commutation.sch"
+//Design Name: Commutation
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Commutation(H1, 
+                   H2, 
+                   H3, 
+                   A, 
+                   AA, 
+                   B, 
+                   BB, 
+                   C, 
+                   CC);
+
+    input H1;
+    input H2;
+    input H3;
+   output A;
+   output AA;
+   output B;
+   output BB;
+   output C;
+   output CC;
+   
+   wire XLXN_58;
+   wire XLXN_59;
+   wire XLXN_60;
+   
+   INV  XLXI_24 (.I(H1), 
+                .O(XLXN_59));
+   INV  XLXI_25 (.I(H2), 
+                .O(XLXN_60));
+   INV  XLXI_26 (.I(H3), 
+                .O(XLXN_58));
+   OR2  XLXI_27 (.I0(H2), 
+                .I1(XLXN_59), 
+                .O(A));
+   OR2  XLXI_28 (.I0(H3), 
+                .I1(XLXN_60), 
+                .O(B));
+   OR2  XLXI_29 (.I0(H1), 
+                .I1(XLXN_58), 
+                .O(C));
+   AND2  XLXI_33 (.I0(H2), 
+                 .I1(XLXN_59), 
+                 .O(AA));
+   AND2  XLXI_34 (.I0(H3), 
+                 .I1(XLXN_60), 
+                 .O(BB));
+   AND2  XLXI_35 (.I0(H1), 
+                 .I1(XLXN_58), 
+                 .O(CC));
+endmodule

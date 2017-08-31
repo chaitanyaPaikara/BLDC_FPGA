@@ -7,7 +7,7 @@
 // \   \   \/     Version : 14.2
 //  \   \         Application : sch2hdl
 //  /   /         Filename : Main_Module.vf
-// /___/   /\     Timestamp : 06/04/2017 20:32:22
+// /___/   /\     Timestamp : 06/05/2017 11:41:09
 // \   \  /  \ 
 //  \___\/\___\ 
 //
@@ -589,36 +589,21 @@ endmodule
 `timescale 1ns / 1ps
 
 module Main_Module(CLK, 
-                   CLR, 
-                   CLR_Rx, 
-                   EN, 
                    E_1, 
                    E_2, 
                    RST_1, 
-                   Rx, 
-                   Data_Rx, 
-                   OUT_ser);
+                   Ticks);
 
     input CLK;
-    input CLR;
-    input CLR_Rx;
-    input EN;
     input E_1;
     input E_2;
     input RST_1;
-    input Rx;
-   output [7:0] Data_Rx;
-   output OUT_ser;
+   output [8:0] Ticks;
    
    wire XLXN_58;
    wire XLXN_59;
    wire XLXN_60;
-   wire XLXN_67;
-   wire [8:0] XLXN_72;
-   wire [8:0] XLXN_74;
-   wire [7:0] Data_Rx_DUMMY;
    
-   assign Data_Rx[7:0] = Data_Rx_DUMMY[7:0];
    Digital_Filter_MUSER_Main_Module  XLXI_33 (.CLK(CLK), 
                                              .Inp(E_1), 
                                              .Outp(XLXN_59));
@@ -630,25 +615,7 @@ module Main_Module(CLK,
                                              .E_2(XLXN_58), 
                                              .RST_1(RST_1), 
                                              .TInt(XLXN_60), 
-                                             .TICKS(XLXN_72[8:0]));
+                                             .TICKS(Ticks[8:0]));
    CLOCK_32  XLXI_42 (.clk(CLK), 
                      .rst(XLXN_60));
-   Sync_Transmitter_Baud_9  XLXI_44 (.CLK(CLK), 
-                                    .CLR(CLR), 
-                                    .Data(XLXN_74[8:0]), 
-                                    .RST(), 
-                                    .CLK_Baud(XLXN_67), 
-                                    .OUT_ser(OUT_ser));
-   Sync_Reciver  XLXI_46 (.CLK(CLK), 
-                         .CLK_Baud(XLXN_67), 
-                         .CLR(CLR_Rx), 
-                         .Serial_input(Rx), 
-                         .Data(Data_Rx_DUMMY[7:0]), 
-                         .Data_Ready(), 
-                         .Parity_ERR());
-   PIDCONTROLLER  XLXI_47 (.clk(CLK), 
-                          .current_vel(XLXN_72[8:0]), 
-                          .en(EN), 
-                          .KpKd(Data_Rx_DUMMY[7:0]), 
-                          .vel_output(XLXN_74[8:0]));
 endmodule

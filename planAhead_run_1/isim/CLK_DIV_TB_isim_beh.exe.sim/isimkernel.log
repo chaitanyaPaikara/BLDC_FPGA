@@ -1,0 +1,28 @@
+Command line:
+   CLK_DIV_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56713
+
+Sun Jun 11 21:12:07 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 836.669 Meg
+
+ Total Signals          : 15
+ Total Nets             : 15
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 137
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 836.669 Meg
+
+Sun Jun 11 21:12:36 2017
+

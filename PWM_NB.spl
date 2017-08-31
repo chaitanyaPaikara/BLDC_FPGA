@@ -1,0 +1,10 @@
+[Inputs]
+E
+CLK
+=D[7:0]=
+[Outputs]
+Q
+[BiDir]
+[ATTRIBUTES]
+VeriModel PWM_NB
+

@@ -21,22 +21,22 @@
 module PID_NEXT(
 input signed[8:0] in_vel,
 input CLK,
-output reg signed[8:0] out_vel
+output ovf,
+output reg [7:0] out_vel
     );
 wire signed [8:0] out_temp;
 Delay_sub uut(
 	.inputIP(in_vel),
 	.outputOP(out_temp),
 	.CLK(CLK));
-	
+initial out_vel = 0;
 always @(posedge CLK) begin
-	$display("in_vel[8] = %d", in_vel[8]);
-	if(in_vel[8])
-		out_vel = out_temp - in_vel;
-	else
+	if(out_temp + in_vel> 255)
+		out_vel = 254;
+	else 	
 		out_vel = out_temp + in_vel;
-	$display("VELO = %d", out_vel);
-	$display("temp = %d", out_temp);
+	//$display("output velocity = %d", out_vel);
+	//$display("temp velocity = %d", out_temp);
 end	
 
 endmodule

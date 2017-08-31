@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan6 -verilog MAIN_2_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/MAIN_2.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym MAIN_2 {C:/Users/Chaitanya Paikara/Documents/GitHub/MAIN_2.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/MAIN_2.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog MAIN_2_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/MAIN_2.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym MAIN_2 {C:/Users/Chaitanya Paikara/Documents/GitHub/MAIN_2.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/MAIN_2.sym} 

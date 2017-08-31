@@ -7,7 +7,7 @@
 // \   \   \/     Version : 14.2
 //  \   \         Application : sch2hdl
 //  /   /         Filename : Main_drc.vf
-// /___/   /\     Timestamp : 05/24/2017 23:51:55
+// /___/   /\     Timestamp : 06/11/2017 00:53:38
 // \   \  /  \ 
 //  \___\/\___\ 
 //
@@ -21,36 +21,73 @@
 `timescale 1ns / 1ps
 
 module Main(CLK, 
+            CLR, 
             CLR_Rx, 
-            CLR_Tx, 
-            Data_Tx, 
-            RST, 
+            E_1, 
+            E_2, 
+            H1, 
+            H2, 
+            H3, 
             Rx, 
+            A, 
+            AA, 
+            B, 
+            BB, 
+            C, 
+            CC, 
             Data_Rx, 
-            Tx);
+            OUT_ser);
 
     input CLK;
+    input CLR;
     input CLR_Rx;
-    input CLR_Tx;
-    input [7:0] Data_Tx;
-    input RST;
+    input E_1;
+    input E_2;
+    input H1;
+    input H2;
+    input H3;
     input Rx;
+   output A;
+   output AA;
+   output B;
+   output BB;
+   output C;
+   output CC;
    output [7:0] Data_Rx;
-   output Tx;
+   output OUT_ser;
    
-   wire XLXN_4;
+   wire [8:0] XLXN_74;
+   wire XLXN_76;
+   wire [7:0] Data_Rx_DUMMY;
    
-   Sync_Reciver  XLXI_1 (.CLK(CLK), 
-                        .CLK_Baud(XLXN_4), 
+   assign Data_Rx[7:0] = Data_Rx_DUMMY[7:0];
+   Sync_Reciver  XLXI_5 (.CLK(CLK), 
+                        .CLK_Baud(XLXN_76), 
                         .CLR(CLR_Rx), 
                         .Serial_input(Rx), 
-                        .Data(Data_Rx[7:0]), 
+                        .Data(Data_Rx_DUMMY[7:0]), 
                         .Data_Ready(), 
                         .Parity_ERR());
-   Sync_Transmitter_Baud  XLXI_2 (.CLK(CLK), 
-                                 .CLR(CLR_Tx), 
-                                 .Data9(Data_Tx[7:0]), 
-                                 .RST(RST), 
-                                 .CLK_Baud(XLXN_4), 
-                                 .OUT_ser(Tx));
+   Sync_Transmitter_Baud_9  XLXI_44 (.CLK(CLK), 
+                                    .CLR(CLR), 
+                                    .Data9(XLXN_74[8:0]), 
+                                    .RST(), 
+                                    .CLK_Baud(XLXN_76), 
+                                    .OUT_ser(OUT_ser));
+   Main_Module  XLXI_49 (.CLK(CLK), 
+                        .E_1(E_1), 
+                        .E_2(E_2), 
+                        .RST_1(), 
+                        .Ticks(XLXN_74[8:0]));
+   Speed_Control  XLXI_50 (.CLK(CLK), 
+                          .D(Data_Rx_DUMMY[7:0]), 
+                          .H1(H1), 
+                          .H2(H2), 
+                          .H3(H3), 
+                          .A(A), 
+                          .AA(AA), 
+                          .B(B), 
+                          .BB(BB), 
+                          .C(C), 
+                          .CC(CC));
 endmodule

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/PWM.v} -lang verilog -prj UART_1_1 -o PWM_NB.spl -module PWM_NB -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w PWM_NB.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/PWM_NB.sym} 

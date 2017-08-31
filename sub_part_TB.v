@@ -7,34 +7,31 @@ module sub_part_sub_part_sch_tb();
 // Inputs
    reg CLK;
    reg EN;
-   reg [7:0] target_vel;
-   reg [7:0] current_vel;
-   reg [3:0] Kp;
-   reg [3:0] Kd;
+   reg [8:0] current_vel;
+	reg [7:0] target_vel;
+   reg [7:0] KpKd;
 
 // Output
-   wire [8:0] out_vel;
+   wire [7:0] out_vel;
 
 // Bidirs
 
 // Instantiate the UUT
-   sub_part UUT (
+   sub_part UUT_1 (
 		.CLK(CLK), 
 		.EN(EN), 
-		.target_vel(target_vel), 
+		.target_vel(target_vel),
 		.current_vel(current_vel), 
-		.Kp(Kp), 
-		.Kd(Kd), 
+		.KpKd(KpKd), 
 		.out_vel(out_vel)
    );
 // Initialize Inputs
        initial begin
 		CLK = 0;
 		EN = 0;
-		target_vel =40;
-		current_vel = 45;
-		Kp = 4'b1100;
-		Kd = 4'b0110;
+		target_vel = 80;
+		current_vel = 70;
+		KpKd = 8'b11000110;
 		#100;
 		EN=1;
    end

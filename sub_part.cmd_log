@@ -6,3 +6,17 @@ sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya P
 sch2hdl -intstyle ise -family spartan6 -verilog sub_part_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} 
 sch2hdl -intstyle ise -family spartan6 -verilog sub_part_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} 
 sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog sub_part_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog sub_part_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog sub_part_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} 
+sch2hdl -intstyle ise -family spartan6 -verilog sub_part_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog sub_part_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym sub_part {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.sym} 

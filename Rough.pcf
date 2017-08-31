@@ -1,0 +1,28 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Tue Jun 06 22:29:03 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CLR_Rx" LOCATE = SITE "C11" LEVEL 1;
+COMP "Data_Rx<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "Data_Rx<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Data_Rx<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "Data_Rx<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "A" LOCATE = SITE "B2" LEVEL 1;
+COMP "B" LOCATE = SITE "C6" LEVEL 1;
+COMP "Data_Rx<4>" LOCATE = SITE "N5" LEVEL 1;
+COMP "C" LOCATE = SITE "A9" LEVEL 1;
+COMP "Data_Rx<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "Data_Rx<6>" LOCATE = SITE "P4" LEVEL 1;
+COMP "Data_Rx<7>" LOCATE = SITE "G1" LEVEL 1;
+COMP "Rx" LOCATE = SITE "C9" LEVEL 1;
+COMP "CLK" LOCATE = SITE "B8" LEVEL 1;
+COMP "H1" LOCATE = SITE "J3" LEVEL 1;
+COMP "H2" LOCATE = SITE "C5" LEVEL 1;
+COMP "H3" LOCATE = SITE "A10" LEVEL 1;
+COMP "AA" LOCATE = SITE "A3" LEVEL 1;
+COMP "BB" LOCATE = SITE "B6" LEVEL 1;
+COMP "CC" LOCATE = SITE "B9" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

@@ -1,0 +1,27 @@
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Speed_Control_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Speed_Control {C:/Users/Chaitanya Paikara/Documents/GitHub/Speed_Control.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Speed_Control.sym} 

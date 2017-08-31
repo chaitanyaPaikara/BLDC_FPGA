@@ -3,3 +3,9 @@ sch2hdl -intstyle ise -family spartan6 -verilog Delay_sub_drc.vf -w {C:/Users/Ch
 sch2hdl -intstyle ise -family spartan6 -verilog Delay_sub_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sch} 
 sch2sym -intstyle ise -family spartan6 -w -refsym Delay_sub {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sym} 
 sch2hdl -intstyle ise -family spartan6 -verilog Delay_sub_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sch} 
+sch2hdl -intstyle ise -family spartan6 -verilog Delay_sub_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Delay_sub {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Delay_sub {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Delay_sub_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Delay_sub {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Delay_sub {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.sym} 

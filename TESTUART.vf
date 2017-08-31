@@ -1,0 +1,54 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : TESTUART.vf
+// /___/   /\     Timestamp : 06/08/2017 15:31:13
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART.vf" -w "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART.sch"
+//Design Name: TESTUART
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module TESTUART(CLK, 
+                CLR, 
+                CLR_Rx, 
+                Data_Tx, 
+                Rx, 
+                Data_Rx, 
+                OUT_ser);
+
+    input CLK;
+    input CLR;
+    input CLR_Rx;
+    input [7:0] Data_Tx;
+    input Rx;
+   output [7:0] Data_Rx;
+   output OUT_ser;
+   
+   wire XLXN_2;
+   
+   Sync_Reciver  XLXI_1 (.CLK(CLK), 
+                        .CLK_Baud(XLXN_2), 
+                        .CLR(CLR_Rx), 
+                        .Serial_input(Rx), 
+                        .Data(Data_Rx[7:0]), 
+                        .Data_Ready(), 
+                        .Parity_ERR());
+   Sync_Transmitter_Baud  XLXI_2 (.CLK(CLK), 
+                                 .CLR(CLR), 
+                                 .Data(Data_Tx[7:0]), 
+                                 .RST(), 
+                                 .CLK_Baud(XLXN_2), 
+                                 .OUT_ser(OUT_ser));
+endmodule

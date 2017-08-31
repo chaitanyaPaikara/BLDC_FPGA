@@ -10,23 +10,23 @@ Target Device  : xc6slx9
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Wed May 31 03:34:29 2017
+Mapped Date    : Sun Aug 27 18:21:43 2017
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:    0
+Number of warnings:    1
 Slice Logic Utilization:
-  Number of Slice Registers:                    83 out of  11,440    1%
-    Number used as Flip Flops:                  83
+  Number of Slice Registers:                   145 out of  11,440    1%
+    Number used as Flip Flops:                 145
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                         74 out of   5,720    1%
-    Number used as logic:                       72 out of   5,720    1%
-      Number using O6 output only:              57
-      Number using O5 output only:               9
-      Number using O5 and O6:                    6
+  Number of Slice LUTs:                        192 out of   5,720    3%
+    Number used as logic:                      174 out of   5,720    3%
+      Number using O6 output only:             130
+      Number using O5 output only:              31
+      Number using O5 and O6:                   13
       Number used as ROM:                        0
     Number used as Memory:                       1 out of   1,440    1%
       Number used as Dual Port RAM:              0
@@ -35,21 +35,21 @@ Slice Logic Utilization:
         Number using O6 output only:             1
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:      1
-      Number with same-slice register load:      0
-      Number with same-slice carry load:         1
-      Number with other load:                    0
+    Number used exclusively as route-thrus:     17
+      Number with same-slice register load:      2
+      Number with same-slice carry load:         3
+      Number with other load:                   12
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    31 out of   1,430    2%
-  Nummber of MUXCYs used:                       32 out of   2,860    1%
-  Number of LUT Flip Flop pairs used:           92
-    Number with an unused Flip Flop:            14 out of      92   15%
-    Number with an unused LUT:                  18 out of      92   19%
-    Number of fully used LUT-FF pairs:          60 out of      92   65%
-    Number of unique control sets:               9
+  Number of occupied Slices:                    80 out of   1,430    5%
+  Nummber of MUXCYs used:                       84 out of   2,860    2%
+  Number of LUT Flip Flop pairs used:          223
+    Number with an unused Flip Flop:            86 out of     223   38%
+    Number with an unused LUT:                  31 out of     223   13%
+    Number of fully used LUT-FF pairs:         106 out of     223   47%
+    Number of unique control sets:              11
     Number of slice register sites lost
-      to control set restrictions:              44 out of  11,440    1%
+      to control set restrictions:              54 out of  11,440    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -58,7 +58,8 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        15 out of     200    7%
+  Number of bonded IOBs:                        33 out of     200   16%
+    Number of LOCed IOBs:                       32 out of      33   96%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
@@ -85,12 +86,12 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-  Number of RPM macros:            1
-Average Fanout of Non-Clock Nets:                2.37
+  Number of RPM macros:            3
+Average Fanout of Non-Clock Nets:                2.34
 
-Peak Memory Usage:  386 MB
-Total REAL time to MAP completion:  1 mins 
-Total CPU time to MAP completion:   1 mins 
+Peak Memory Usage:  398 MB
+Total REAL time to MAP completion:  18 secs 
+Total CPU time to MAP completion:   11 secs 
 
 Table of Contents
 -----------------
@@ -113,46 +114,39 @@ Section 1 - Errors
 
 Section 2 - Warnings
 --------------------
+WARNING:Place:837 - Partially locked IO Bus is found. 
+    Following components of the bus are not locked: 
+   	 Comp: Data_Rx<8>
+
 
 Section 3 - Informational
 -------------------------
 INFO:MapLib:564 - The following environment variables are currently set:
 INFO:MapLib:591 - XIL_MAP_LOCWARN 	Value: 1
-INFO:LIT:244 - All of the single ended outputs in this design are using slew
-   rate limited output drivers. The delay on speed critical single ended outputs
-   can be dramatically reduced by designating them as fast outputs.
+INFO:MapLib:159 - Net Timing constraints on signal CLK are pushed forward
+   through input buffer.
 INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
    0.000 to 85.000 Celsius)
 INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
    1.260 Volts)
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
+INFO:Place:834 - Only a subset of IOs are locked. Out of 33 IOs, 32 are locked
+   and 1 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
 INFO:Pack:1650 - Map created a placed design.
 
 Section 4 - Removed Logic Summary
 ---------------------------------
-   1 block(s) removed
    2 block(s) optimized away
 
 Section 5 - Removed Logic
 -------------------------
 
-The trimmed logic report below shows the logic removed from your design due to
-sourceless or loadless signals, and VCC or ground connections.  If the removal
-of a signal or symbol results in the subsequent removal of an additional signal
-or symbol, the message explaining that second removal will be indented.  This
-indentation will be repeated as a chain of related logic is removed.
-
-To quickly locate the original cause for the removal of a chain of logic, look
-above the place where that logic is listed in the trimming report, then locate
-the lines that are least indented (begin at the leftmost edge).
-
-Loadless block "XLXI_3/XLXI_3/uut/XLXI_2" (FF) removed.
-
 Optimized Block(s):
 TYPE 		BLOCK
+VCC 		XLXI_54
 GND 		XST_GND
-VCC 		XST_VCC
 
 To enable printing of redundant blocks removed and signals merged, set the
 detailed map report option and rerun map.
@@ -164,26 +158,46 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| CE                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| CLK                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| A                                  | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| AA                                 | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| B                                  | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| BB                                 | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| C                                  | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| CC                                 | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| CLK                                | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| CLR                                | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
 | CLR_Rx                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| CLR_Tx                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Kd<0>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Kd<1>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Kd<2>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Kd<3>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Kp<0>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Kp<1>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Kp<2>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Kp<3>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| RST                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Rx                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Tx                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Data_Rx<0>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Data_Rx<1>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Data_Rx<2>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Data_Rx<3>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Data_Rx<4>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Data_Rx<5>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Data_Rx<6>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Data_Rx<7>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Data_Rx<8>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| E_1                                | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| E_2                                | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| H1                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| H2                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| H3                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| KpKd<0>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| KpKd<1>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| KpKd<2>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| KpKd<3>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| KpKd<4>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| KpKd<5>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| KpKd<6>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| KpKd<7>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| OUT_ser                            | IOB              | OUTPUT    | LVCMOS33             |       | 8        | FAST |              |          |          |
+| Rx                                 | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs
 ----------------
-XLXI_1/UUT_XLXI_11_0                    
+XLXI_49/XLXI_33_XLXI_11_0               
+XLXI_49/XLXI_34_XLXI_11_0               
+XLXI_5/UUT_XLXI_11_0                    
 
 Section 8 - Guide Report
 ------------------------

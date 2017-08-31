@@ -16,12 +16,12 @@
 //
 `timescale 1ns / 1ps
 
-module Sync_Transmitter_Baud(CLK, CLR, CLK_Baud, Data9, OUT_ser,RST
+module Sync_Transmitter_Baud(CLK, CLR, CLK_Baud,Data, OUT_ser,RST
     );
 
 input CLK, CLR,RST;
-input [8:0] Data9;
-wire [7:0] Data;
+input [7:0] Data;
+//wire [7:0] Data;
 output OUT_ser,CLK_Baud;
 reg CLK_Baud;
 reg OUT_ser_reg;
@@ -32,8 +32,8 @@ reg Parity_Bit;
 reg [10:0] Count_Baud;
 reg RST_O;
 wire Parity;
-assign Data [7:0] = Data9 [7:0];
-assign Parity = Data[0] ^ Data[1] ^ Data[2] ^ Data[3] ^ Data[4] ^ Data[5] ^ Data[6] ^ Data[7]; 
+//assign Data [7:0] = Data9 [7:0];
+assign Parity = Data[0]^Data[1]^Data[2]^Data[3]^Data[4]^Data[5]^Data[6]^Data[7]; 
 assign OUT_ser = OUT_ser_reg;
 reg CLR_Flag,CLR_Flag_O;
 
@@ -56,7 +56,7 @@ always @(posedge CLK)
 		else if(RST != 1)
 		begin
 				Count_Baud <= Count_Baud + 1;
-				if(Count_Baud == 651)
+				if(Count_Baud == 1302)
 				begin
 					Count_Baud <= 0;
 				end
