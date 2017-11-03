@@ -7,7 +7,7 @@
 // \   \   \/     Version : 14.2
 //  \   \         Application : sch2hdl
 //  /   /         Filename : TESTUART.vf
-// /___/   /\     Timestamp : 06/08/2017 15:31:13
+// /___/   /\     Timestamp : 11/03/2017 16:49:34
 // \   \  /  \ 
 //  \___\/\___\ 
 //
@@ -24,17 +24,23 @@ module TESTUART(CLK,
                 CLR, 
                 CLR_Rx, 
                 Data_Tx, 
+                RST, 
                 Rx, 
+                Data_Ready, 
                 Data_Rx, 
-                OUT_ser);
+                OUT_ser, 
+                Parity_ERR);
 
     input CLK;
     input CLR;
     input CLR_Rx;
-    input [7:0] Data_Tx;
+    input [31:0] Data_Tx;
+    input RST;
     input Rx;
-   output [7:0] Data_Rx;
+   output Data_Ready;
+   output [31:0] Data_Rx;
    output OUT_ser;
+   output Parity_ERR;
    
    wire XLXN_2;
    
@@ -42,13 +48,13 @@ module TESTUART(CLK,
                         .CLK_Baud(XLXN_2), 
                         .CLR(CLR_Rx), 
                         .Serial_input(Rx), 
-                        .Data(Data_Rx[7:0]), 
-                        .Data_Ready(), 
-                        .Parity_ERR());
+                        .Data(Data_Rx[31:0]), 
+                        .Data_Ready(Data_Ready), 
+                        .Parity_ERR(Parity_ERR));
    Sync_Transmitter_Baud  XLXI_2 (.CLK(CLK), 
                                  .CLR(CLR), 
-                                 .Data(Data_Tx[7:0]), 
-                                 .RST(), 
+                                 .Data(Data_Tx[31:0]), 
+                                 .RST(RST), 
                                  .CLK_Baud(XLXN_2), 
                                  .OUT_ser(OUT_ser));
 endmodule

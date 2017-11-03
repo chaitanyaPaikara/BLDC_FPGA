@@ -12,3 +12,9 @@ vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/
 spl2sym -intstyle ise -family spartan3e -w Sync_Reciver.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Reciver.sym} 
 vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Reciver.v} -lang verilog -prj UART_1_1 -o Sync_Reciver.spl -module Sync_Reciver -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan6 -w Sync_Reciver.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Reciver.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Reciver.v} -lang verilog -prj UART_1_1 -o Sync_Reciver.spl -module Sync_Reciver -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Sync_Reciver.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Reciver.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Reciver.v} -lang verilog -prj UART_1_1 -o Sync_Reciver.spl -module Sync_Reciver -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Sync_Reciver.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Reciver.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Reciver.v} -lang verilog -prj UART_1_1 -o Sync_Reciver.spl -module Sync_Reciver -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Sync_Reciver.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Reciver.sym} 

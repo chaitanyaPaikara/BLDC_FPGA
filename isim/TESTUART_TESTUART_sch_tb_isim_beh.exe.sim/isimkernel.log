@@ -1,0 +1,28 @@
+Command line:
+   TESTUART_TESTUART_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50313
+
+Fri Nov 03 16:49:39 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 837.538 Meg
+
+ Total Signals          : 125
+ Total Nets             : 112
+ Total Signal Drivers   : 47
+ Total Blocks           : 23
+ Total Primitive Blocks : 18
+ Total Processes        : 73
+ Total Traceable Variables  : 57
+ Total Scalar Nets and Variables : 470
+
+ Total Simulation Time: 0.875 sec
+
+ Current Memory Usage: 680.251 Meg
+
+Fri Nov 03 16:50:42 2017
+

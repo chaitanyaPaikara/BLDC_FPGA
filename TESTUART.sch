@@ -12,17 +12,23 @@
         <signal name="CLR" />
         <signal name="OUT_ser" />
         <signal name="Rx" />
-        <signal name="Data_Rx(7:0)" />
-        <signal name="Data_Tx(7:0)" />
+        <signal name="Data_Rx(31:0)" />
+        <signal name="Data_Tx(31:0)" />
+        <signal name="RST" />
+        <signal name="Data_Ready" />
+        <signal name="Parity_ERR" />
         <port polarity="Input" name="CLK" />
         <port polarity="Input" name="CLR_Rx" />
         <port polarity="Input" name="CLR" />
         <port polarity="Output" name="OUT_ser" />
         <port polarity="Input" name="Rx" />
-        <port polarity="Output" name="Data_Rx(7:0)" />
-        <port polarity="Input" name="Data_Tx(7:0)" />
+        <port polarity="Output" name="Data_Rx(31:0)" />
+        <port polarity="Input" name="Data_Tx(31:0)" />
+        <port polarity="Input" name="RST" />
+        <port polarity="Output" name="Data_Ready" />
+        <port polarity="Output" name="Parity_ERR" />
         <blockdef name="Sync_Reciver">
-            <timestamp>2017-6-8T9:21:53</timestamp>
+            <timestamp>2017-11-3T11:8:14</timestamp>
             <line x2="0" y1="32" y2="32" x1="64" />
             <line x2="0" y1="96" y2="96" x1="64" />
             <line x2="0" y1="-224" y2="-224" x1="64" />
@@ -34,7 +40,7 @@
             <rect width="256" x="64" y="-256" height="384" />
         </blockdef>
         <blockdef name="Sync_Transmitter_Baud">
-            <timestamp>2017-6-8T10:0:15</timestamp>
+            <timestamp>2017-11-3T11:8:7</timestamp>
             <rect width="64" x="0" y="84" height="24" />
             <line x2="0" y1="96" y2="96" x1="64" />
             <line x2="0" y1="32" y2="32" x1="64" />
@@ -49,17 +55,17 @@
             <blockpin signalname="CLR_Rx" name="CLR" />
             <blockpin signalname="XLXN_2" name="CLK_Baud" />
             <blockpin signalname="Rx" name="Serial_input" />
-            <blockpin name="Data_Ready" />
-            <blockpin name="Parity_ERR" />
-            <blockpin signalname="Data_Rx(7:0)" name="Data(7:0)" />
+            <blockpin signalname="Data_Ready" name="Data_Ready" />
+            <blockpin signalname="Parity_ERR" name="Parity_ERR" />
+            <blockpin signalname="Data_Rx(31:0)" name="Data(31:0)" />
         </block>
         <block symbolname="Sync_Transmitter_Baud" name="XLXI_2">
             <blockpin signalname="CLK" name="CLK" />
             <blockpin signalname="CLR" name="CLR" />
-            <blockpin name="RST" />
+            <blockpin signalname="RST" name="RST" />
+            <blockpin signalname="Data_Tx(31:0)" name="Data(31:0)" />
             <blockpin signalname="XLXN_2" name="CLK_Baud" />
             <blockpin signalname="OUT_ser" name="OUT_ser" />
-            <blockpin signalname="Data_Tx(7:0)" name="Data(7:0)" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="3520" height="2720">
@@ -95,17 +101,31 @@
         </branch>
         <iomarker fontsize="28" x="2480" y="1040" name="OUT_ser" orien="R0" />
         <branch name="Rx">
-            <wire x2="1088" y1="1168" y2="1168" x1="1056" />
+            <wire x2="1072" y1="1168" y2="1168" x1="736" />
+            <wire x2="1088" y1="1168" y2="1168" x1="1072" />
         </branch>
-        <iomarker fontsize="28" x="1056" y="1168" name="Rx" orien="R180" />
-        <branch name="Data_Rx(7:0)">
-            <wire x2="1504" y1="1040" y2="1040" x1="1472" />
+        <branch name="Data_Rx(31:0)">
+            <wire x2="1488" y1="1040" y2="1040" x1="1472" />
+            <wire x2="1616" y1="1040" y2="1040" x1="1488" />
         </branch>
-        <iomarker fontsize="28" x="1504" y="1040" name="Data_Rx(7:0)" orien="R0" />
         <iomarker fontsize="28" x="752" y="848" name="CLK" orien="R180" />
-        <branch name="Data_Tx(7:0)">
+        <branch name="Data_Tx(31:0)">
             <wire x2="2064" y1="1168" y2="1168" x1="2032" />
         </branch>
-        <iomarker fontsize="28" x="2032" y="1168" name="Data_Tx(7:0)" orien="R180" />
+        <iomarker fontsize="28" x="2032" y="1168" name="Data_Tx(31:0)" orien="R180" />
+        <iomarker fontsize="28" x="736" y="1168" name="Rx" orien="R180" />
+        <iomarker fontsize="28" x="1616" y="1040" name="Data_Rx(31:0)" orien="R0" />
+        <branch name="RST">
+            <wire x2="2064" y1="1104" y2="1104" x1="2032" />
+        </branch>
+        <iomarker fontsize="28" x="2032" y="1104" name="RST" orien="R180" />
+        <branch name="Data_Ready">
+            <wire x2="1504" y1="848" y2="848" x1="1472" />
+        </branch>
+        <iomarker fontsize="28" x="1504" y="848" name="Data_Ready" orien="R0" />
+        <branch name="Parity_ERR">
+            <wire x2="1504" y1="944" y2="944" x1="1472" />
+        </branch>
+        <iomarker fontsize="28" x="1504" y="944" name="Parity_ERR" orien="R0" />
     </sheet>
 </drawing>

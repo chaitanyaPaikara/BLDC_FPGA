@@ -66,3 +66,7 @@ map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -reg
 par -w -intstyle ise -ol high -mt off TESTUART_map.ncd TESTUART.ncd TESTUART.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TESTUART.twx TESTUART.ncd -o TESTUART.twr TESTUART.pcf -ucf MimasV2_mapping.ucf 
 bitgen -intstyle ise -f TESTUART.ut TESTUART.ncd 
+sch2hdl -intstyle ise -family spartan6 -verilog TESTUART_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym TESTUART {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog TESTUART_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym TESTUART {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART.sym} 

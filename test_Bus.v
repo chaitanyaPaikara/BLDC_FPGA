@@ -8,13 +8,13 @@ module test_usart_test_usart_sch_tb();
    reg CLK;
    wire CLK_B;
    reg CLR;
-   wire  Rx;
-   reg [7:0] Data_Tx;
+   reg Rx; //wire  Rx;
+   reg [31:0] Data_Tx;
 	reg CLR_Rec;
 // Output
    wire Tx;
    wire parity_err;
-   wire [7:0] Data_Rx;
+   wire [31:0] Data_Rx;
 	wire Data_Ready;
 
 // Bidirs
@@ -33,23 +33,26 @@ module test_usart_test_usart_sch_tb();
 		.Data_Ready(Data_Ready)
    );
 // Initialize Inputs
-reg indone;
-   initial begin
+	
+	reg indone;
+   
+	initial begin
 	CLR = 0;
 	CLR_Rec = 0;
-	Data_Tx = 00;
+	Rx = 1;
+	Data_Tx = 00;//32'hAAAAAAAA;
 	CLK = 0;
 	indone = 0;
 	#1000;
 	CLR = 1;
 	CLR_Rec = 1;
-	#150000;
+	#460000;//#150000;
 	CLR = 0;
-		CLR_Rec = 0;
-indone = 1;
+	CLR_Rec = 0;
+	indone = 1;
    end
 		
-		assign Rx = Tx;
+	//assign Rx = Tx;
 		
 	always begin
 		 CLK =~CLK;
@@ -57,7 +60,7 @@ indone = 1;
 		 end
 
  	always begin
-		#150000;
+		#460000;
 		if(indone == 1)CLR = ~CLR;
    end
 	

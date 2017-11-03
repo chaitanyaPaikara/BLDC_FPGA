@@ -2,7 +2,7 @@
 CLK
 CLR
 RST
-=Data[7:0]=
+=Data[31:0]=
 [Outputs]
 CLK_Baud
 OUT_ser

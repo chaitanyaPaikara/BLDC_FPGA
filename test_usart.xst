@@ -1,10 +1,7 @@
-set -tmpdir "xst/projnav.tmp"
-set -xsthdpdir "xst"
-run
--ifn test_usart.prj
--ofn test_usart
--ofmt NGC
--p xc6slx9-3-tqg144
+set -tmpdir "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/xst"
+run -compileonly yes
+-p xc6slx9-3-csg324
 -top test_usart
 -opt_mode Speed
 -opt_level 1
@@ -50,3 +47,4 @@ run
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
+-ifn test_usart.prj

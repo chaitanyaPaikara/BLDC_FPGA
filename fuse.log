@@ -1,25 +1,34 @@
-Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part_sub_part_sch_tb_isim_beh.exe -prj C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part_sub_part_sch_tb_beh.prj work.sub_part_sub_part_sch_tb work.glbl 
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART_TESTUART_sch_tb_isim_beh.exe -prj C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART_TESTUART_sch_tb_beh.prj work.TESTUART_TESTUART_sch_tb work.glbl 
 ISim P.28xd (signature 0xa0883be4)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Delay_sub.vf" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/PID_NEXT.v" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/../BLDC_Controller/PID.v" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part.vf" into library work
-Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part_TB.v" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Digital_Filter.vf" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Transmitter_Baud.v" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/Sync_Reciver.v" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART.vf" into library work
+Analyzing Verilog file "C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART_TB.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling module FD
-Compiling module Delay_sub
-Compiling module PID_NEXT
-Compiling module PIDCONTROLLER
-Compiling module sub_part
-Compiling module sub_part_sub_part_sch_tb
+Compiling module INV
+Compiling module AND4
+Compiling module FDC
+Compiling module AND3B2
+Compiling module AND3B1
+Compiling module OR3
+Compiling module AND2B1
+Compiling module FJKC_MXILINX_Digital_Filter
+Compiling module GND
+Compiling module Digital_Filter
+Compiling module Sync_Reciver
+Compiling module Sync_Transmitter_Baud
+Compiling module TESTUART
+Compiling module TESTUART_TESTUART_sch_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Compiled 7 Verilog Units
-Built simulation executable C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/sub_part_sub_part_sch_tb_isim_beh.exe
-Fuse Memory Usage: 27628 KB
-Fuse CPU Usage: 468 ms
+Compiled 16 Verilog Units
+Built simulation executable C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/TESTUART_TESTUART_sch_tb_isim_beh.exe
+Fuse Memory Usage: 28716 KB
+Fuse CPU Usage: 436 ms

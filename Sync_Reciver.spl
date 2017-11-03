@@ -6,7 +6,7 @@ Serial_input
 [Outputs]
 Data_Ready
 Parity_ERR
-=Data[7:0]=
+=Data[31:0]=
 [BiDir]
 [ATTRIBUTES]
 VeriModel Sync_Reciver

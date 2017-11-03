@@ -1,0 +1,6 @@
+verilog work "Digital_Filter.vf"
+verilog work "Sync_Transmitter_Baud.v"
+verilog work "Sync_Reciver.v"
+verilog work "TESTUART.vf"
+verilog work "TESTUART_TB.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

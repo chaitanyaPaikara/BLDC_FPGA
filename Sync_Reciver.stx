@@ -3,14 +3,14 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.27 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.88 secs
  
 --> Parameter xsthdpdir set to C:/Users/Chaitanya Paikara/Documents/GitHub/BLDC_Motor_FPGA/UART_1_1/xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.27 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.88 secs
  
 --> Reading design: Sync_Reciver.prj
 
@@ -46,12 +46,12 @@ Analyzing Verilog file "C:\Users\Chaitanya Paikara\Documents\GitHub\BLDC_Motor_F
 Parsing module <Sync_Reciver>.
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 3.98 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.84 secs
  
 --> 
 
-Total memory usage is 235900 kilobytes
+Total memory usage is 236688 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

@@ -20,13 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Sync_Reciver(CLK,CLR, CLK_Baud, Serial_input,Data_Ready, Data, Parity_ERR
     );
-
+	parameter size = 32;
 	input CLK,CLR, CLK_Baud, Serial_input;
 	output Data_Ready, Parity_ERR;
-	output [7:0] Data;
+	output [31:0] Data;
 
 	wire Filt_In;
-   reg [7:0] Data_Reg;
+   reg [31:0] Data_Reg;
 	reg Parity_Bit;
 	reg status,Data_Ready_R;
 	
@@ -37,10 +37,10 @@ module Sync_Reciver(CLK,CLR, CLK_Baud, Serial_input,Data_Ready, Data, Parity_ERR
    );
 
 assign Data = Data_Reg;
-assign Parity_ERR = Parity_Bit ^ Data[0] ^ Data[1] ^ Data[2] ^ Data[3] ^ Data[4] ^ Data[5] ^ Data[6] ^ Data[7]; 
+assign Parity_ERR = Parity_Bit^(^Data);
 assign Data_Ready = Data_Ready_R;
 reg Serial_IN_O, Baud_CLK_O;
-reg [3:0] counter;
+reg [6:0] counter;
 
 	always @(posedge CLK)
 	begin
@@ -49,8 +49,7 @@ reg [3:0] counter;
 	end
 
 	always @(posedge CLK)
-	begin
-			
+	begin	
 	if(CLR == 1)
 		begin
 		status <= 0;
@@ -62,10 +61,34 @@ reg [3:0] counter;
 		status <= 1;
 		end
 		
-	else if(!CLR && status == 1 && Baud_CLK_O == 0 && CLK_Baud == 1 && counter < 10)
+	else if(!CLR && status == 1 && Baud_CLK_O == 0 && CLK_Baud == 1 && counter < 34)
 		begin
 		Parity_Bit <= Filt_In;
-		Data_Reg[7] <= Parity_Bit;
+		Data_Reg[31] <= Parity_Bit;
+		Data_Reg[30] <= Data_Reg[31];
+		Data_Reg[29] <= Data_Reg[30];
+		Data_Reg[28] <= Data_Reg[29];
+		Data_Reg[27] <= Data_Reg[28];
+		Data_Reg[26] <= Data_Reg[27];
+		Data_Reg[25] <= Data_Reg[26];
+		Data_Reg[24] <= Data_Reg[25];
+		Data_Reg[23] <= Data_Reg[24];
+		Data_Reg[22] <= Data_Reg[23];
+		Data_Reg[21] <= Data_Reg[22];
+		Data_Reg[20] <= Data_Reg[21];
+		Data_Reg[19] <= Data_Reg[20];
+		Data_Reg[18] <= Data_Reg[19];
+		Data_Reg[17] <= Data_Reg[18];
+		Data_Reg[16] <= Data_Reg[17];
+		Data_Reg[15] <= Data_Reg[16];
+		Data_Reg[14] <= Data_Reg[15];
+		Data_Reg[13] <= Data_Reg[14];
+		Data_Reg[12] <= Data_Reg[13];
+		Data_Reg[11] <= Data_Reg[12];
+		Data_Reg[10] <= Data_Reg[11];
+		Data_Reg[9] <= Data_Reg[10];
+		Data_Reg[8] <= Data_Reg[9];
+		Data_Reg[7] <= Data_Reg[8];
 		Data_Reg[6] <= Data_Reg[7];
 		Data_Reg[5] <= Data_Reg[6];
 		Data_Reg[4] <= Data_Reg[5];
@@ -76,12 +99,12 @@ reg [3:0] counter;
 		counter <= counter + 1;
 		end
 		
-	else if(!CLR && counter == 10 &&  Baud_CLK_O == 0 && CLK_Baud == 1)
+	else if(!CLR && counter == 34 &&  Baud_CLK_O == 0 && CLK_Baud == 1)
 	begin
 		counter <= 0;
 		status <= 0;
 	end
-	if(!CLR && counter == 9  &&  Baud_CLK_O == 0 && CLK_Baud == 1 )
+	if(!CLR && counter == 33  &&  Baud_CLK_O == 0 && CLK_Baud == 1 )
 	begin
 		Data_Ready_R <= 1;
 	end

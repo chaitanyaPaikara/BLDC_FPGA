@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="Sync_Transmitter_Baud">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2017-6-8T10:0:15</timestamp>
+    <timestamp>2017-11-3T11:8:7</timestamp>
     <attr value="Sync_Transmitter_Baud" name="VeriModel" />
     <pin polarity="Input" x="0" y="-224" name="CLK" />
     <pin polarity="Input" x="0" y="-160" name="CLR" />
     <pin polarity="Input" x="0" y="32" name="RST" />
+    <pin polarity="Input" x="0" y="96" name="Data(31:0)" />
     <pin polarity="Output" x="384" y="-224" name="CLK_Baud" />
     <pin polarity="Output" x="384" y="-32" name="OUT_ser" />
-    <pin polarity="Input" x="0" y="96" name="Data(7:0)" />
     <graph>
         <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-264" type="symbol" />
         <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin CLK" />
         <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin CLR" />
         <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin RST" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin Data(31:0)" />
         <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-224" type="pin CLK_Baud" />
         <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-32" type="pin OUT_ser" />
-        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin Data(7:0)" />
         <rect width="64" x="0" y="84" height="24" />
         <line x2="0" y1="96" y2="96" x1="64" />
         <line x2="0" y1="32" y2="32" x1="64" />

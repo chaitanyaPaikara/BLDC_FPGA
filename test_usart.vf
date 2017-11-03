@@ -34,11 +34,11 @@ module test_usart(CLK,
     input CLK;
     input CLR;
     input CLR_Rec;
-    input [7:0] Data_Tx;
+    input [31:0] Data_Tx;
     input Rx;
    output CLK_B;
    output Data_Ready;
-   output [7:0] Data_Rx;
+   output [31:0] Data_Rx;
    output parity_err;
    output Tx;
    
@@ -49,12 +49,12 @@ module test_usart(CLK,
                          .CLK_Baud(CLK_B_DUMMY), 
                          .CLR(CLR_Rec), 
                          .Serial_input(Rx), 
-                         .Data(Data_Rx[7:0]), 
+                         .Data(Data_Rx[31:0]), 
                          .Data_Ready(Data_Ready), 
                          .Parity_ERR(parity_err));
    Sync_Transmitter_Baud  Transmitter (.CLK(CLK), 
                                   .CLR(CLR), 
-                                  .Data9(Data_Tx[7:0]), 
+                                  .Data(Data_Tx[7:0]), 
                                   .RST(CLR_Rec), 
                                   .CLK_Baud(CLK_B_DUMMY), 
                                   .OUT_ser(Tx));
