@@ -1,0 +1,40 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/Git/FPGA/UART_1_1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.37 secs
+ 
+--> Parameter xsthdpdir set to E:/Git/FPGA/UART_1_1/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.38 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Digital_Filter.vf" in library work
+Module <FJKC_MXILINX_Digital_Filter> compiled
+Compiling verilog file "Sync_Reciver.v" in library work
+Module <Digital_Filter> compiled
+Module <Sync_Reciver> compiled
+No errors in compilation
+Analysis of file <"Sync_Reciver.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.48 secs
+ 
+--> 
+
+Total memory usage is 257100 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

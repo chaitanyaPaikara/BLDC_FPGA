@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/Git/FPGA/UART_1_1/Sync_Transmitter_Baud.v -lang verilog -prj UART_1_1 -o Sync_Transmitter_Baud.spl -module Sync_Transmitter_Baud -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Sync_Transmitter_Baud.spl E:/Git/FPGA/UART_1_1/Sync_Transmitter_Baud.sym 

@@ -37,6 +37,7 @@ assign Parity = Data[0]^Data[1]^Data[2]^Data[3]^Data[4]^Data[5]^Data[6]^Data[7];
 assign OUT_ser = OUT_ser_reg;
 reg CLR_Flag,CLR_Flag_O;
 
+// Resetting values
 always @(posedge CLK)
 	begin
 	CLK_Baud_O <= CLK_Baud;
@@ -45,6 +46,7 @@ always @(posedge CLK)
 	CLR_Flag_O <= CLR_Flag;
 	end
 
+// Baud CLK Generator
 always @(posedge CLK)
 	begin
 		if(RST == 1 && RST_O == 0)
@@ -68,7 +70,7 @@ always @(posedge CLK)
 		end
 	end
 
-
+// Main computation
 always @(posedge CLK)
 	begin	
 	if(CLR_Flag == 1 && CLR_Flag_O == 0)
